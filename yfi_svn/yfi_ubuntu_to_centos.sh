@@ -63,6 +63,8 @@ file_list[14]="yfi_cake/plugins/locale/fa_IR/LC_MESSAGES/messages.po"
 file_list[15]="yfi_cake/plugins/locale/it_IT/LC_MESSAGES/messages.po"
 file_list[16]="yfi_cake/plugins/locale/translations/create_po_file.pl"
 file_list[17]="yfi_cake/plugins/locale/translations/messages.po"
+file_list[18]="yfi_cake/controllers/*.php"
+file_list[19]="yfi_cake/webroot/*.php"
 
 for i in  ${file_list[@]}
 do

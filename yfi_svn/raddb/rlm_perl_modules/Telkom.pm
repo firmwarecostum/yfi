@@ -29,7 +29,7 @@ our @EXPORT = qw(   &telkom_disabled_check
 #===============================================================
 #===== CONFIGURATION DATA ======================================
 #===============================================================
-my $config_file = '/usr/local/etc/raddb/rlm_perl_modules/conf/settings.conf';
+my $config_file = '/etc/raddb/rlm_perl_modules/conf/settings.conf';
 #===============================================================
 #===== END of Configuration Data ===============================
 #===============================================================

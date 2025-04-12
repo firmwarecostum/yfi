@@ -45,6 +45,11 @@ function var_www_html_c2_plugin_messages.po_to_www_c2_plugin_messages.po(){
         sed 's|/var/www/html/c2|/www/c2|g' $1 > $1.tmp;mv $1.tmp $1;
 }
 
+function var_www_to_www(){
+        echo "Change /var/www to /www for" $1
+        sed 's|/var/www|/www|g' $1 > $1.tmp;mv $1.tmp $1;
+}
+
 file_list[0]="yfi_cake/config/yfi.php"
 file_list[1]="raddb/rlm_perl_modules/conf/settings.conf"
 file_list[2]="raddb/rlm_perl_modules/Attributes.pm"
@@ -64,7 +69,8 @@ file_list[15]="yfi_cake/plugins/locale/it_IT/LC_MESSAGES/messages.po"
 file_list[16]="yfi_cake/plugins/locale/translations/create_po_file.pl"
 file_list[17]="yfi_cake/plugins/locale/translations/messages.po"
 file_list[18]="yfi_cake/controllers/*.php"
-file_list[19]="yfi_cake/webroot/*.php"
+file_list[19]="yfi_cake/webroot/files/*.php"
+file_list[20]="yfi_cake/tmp/cache/persistent/cake_core_core_paths"
 
 for i in  ${file_list[@]}
 do
@@ -76,5 +82,6 @@ do
         usr_share_freeradius_to_usr_share_freeradius2 $i
         var_www_c2_plugin_messages.po_to_www_c2_plugin_messages.po $i
         var_www_html_c2_plugin_messages.po_to_www_c2_plugin_messages.po $i
+        var_www_to_www $i
 done
 

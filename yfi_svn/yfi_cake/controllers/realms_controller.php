@@ -449,7 +449,7 @@ class RealmsController extends AppController {
         $json_return['json']['description'] = $description;
         */
 
-        //Filter out the /var/www
+        //Filter out the /www
         $directory = preg_replace("/\/var\/www/","", $directory);
         $directory = preg_replace("/\/usr\/share\/nginx\/www/","", $directory);
 
@@ -499,7 +499,7 @@ class RealmsController extends AppController {
 
         $json_return['json']['status']      = 'ok';
 
-        //Filter out the /var/www
+        //Filter out the /www
         $directory = preg_replace("/\/var\/www/","", $directory);
         $directory = preg_replace("/\/usr\/share\/nginx\/www/","", $directory);
 
@@ -533,7 +533,7 @@ class RealmsController extends AppController {
             );
         Configure::load('yfi');
         $directory  = Configure::read('realm.icon_directory');
-        //Filter out the /var/www
+        //Filter out the /www
         $directory = preg_replace("/\/var\/www/","", $directory);
         $directory = preg_replace("/\/usr\/share\/nginx\/www/","", $directory);
 

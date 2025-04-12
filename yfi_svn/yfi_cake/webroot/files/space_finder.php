@@ -8,7 +8,7 @@
       - html based output
 ***********************/
 //Set Source Path
-$sourcepath = "/var/www/c2/yfi_cake";
+$sourcepath = "/www/c2/yfi_cake";
 //Regex Express to test leading and trailing spaces
 define("PRE", "#^[\n\r|\n\r|\n|\r|\s]+<\?php#");
 define("POST", "#\?>[\n\r|\n\r|\n|\r|\s]+$#");

@@ -24,7 +24,7 @@ try {
     //Basic sanity checks complete, now connect....
 
     //Find the credentials to connect with
-    include_once("/var/www/c2/yfi_cake/config/database.php");
+    include_once("/www/c2/yfi_cake/config/database.php");
     $dbc    = & new DATABASE_CONFIG();
     $host   = $dbc->default['host'];
     $login  = $dbc->default['login'];

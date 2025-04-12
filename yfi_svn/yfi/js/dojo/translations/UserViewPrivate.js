@@ -1,0 +1,252 @@
+﻿
+
+if(!dojo._hasResource["translations.UserViewPrivate"]){ //_hasResource checks added by build. Do not use _hasResource directly in your code.
+    dojo._hasResource["tranlations.UserViewPrivate"] = true;
+    dojo.provide("translations.UserViewPrivate");
+
+(function(){
+
+    translations.UserViewPrivate.phrases     = {
+        'Result count': { 
+            'de_DE' : 'Summe',
+            'es_ES' : 'Número',
+            'af_ZA' : 'Aantal',
+            'fr_FR' : 'Total',
+            'ms_MY' : 'Bilangan hasil',
+            'nl_NL' : 'Aantal',
+            'id_ID' : 'Hasil perhitungan' ,
+            'th_TH' : 'จำนวนผลลัพธ์',
+            'pt_BR' : 'Total',
+            'da_DK' : 'Antal',
+            'it_IT' : 'Risultato',
+			'fa_IR' : 'تعداد نتایج'
+        },
+        'Profile': { 
+            'de_DE' : 'Profil',
+            'es_ES' : 'Perfil',
+            'af_ZA' : 'Profiel',
+            'fr_FR' : 'Profil',
+            'ms_MY' : 'Profail',
+            'nl_NL' : 'Profiel',
+            'id_ID' : 'Profil' ,
+            'th_TH' : 'กลุ่มผู้ใช้',
+            'pt_BR' : 'Perfil',
+            'da_DK' : 'Profil',
+            'it_IT' : 'Profilo',
+			'fa_IR' : 'پروفایل'
+           },
+        'Attribute': { 
+            'de_DE' : 'Eigenschaft',
+            'es_ES' : 'Atributo',
+            'af_ZA' : 'Eienskap',
+            'fr_FR' : 'Attribut',
+            'ms_MY' : 'Atribut',
+            'nl_NL' : 'Eigenschap',
+            'id_ID' : 'Attribute' ,
+            'th_TH' : 'Attribute',
+            'pt_BR' : 'Atributo',
+            'da_DK' : 'Attribut',
+            'it_IT' : 'Attributi',
+			'fa_IR' : 'صفت'
+           },
+        'Check/Reply': { 
+            'de_DE' : '&Uuml;berpr&uuml;fen/Antworten',
+            'es_ES' : 'Comprobación/Respuesta',
+            'af_ZA' : 'Kontroleer/Antwoord',
+            'fr_FR' : 'Vérification/Réponse',
+            'ms_MY' : 'Check/Reply',
+            'nl_NL' : 'Check/Reply',
+            'id_ID' : 'Check/Reply' ,
+            'th_TH' : 'Check/Reply',
+            'pt_BR' : 'Check/Reply',
+            'da_DK' : 'Kontrollér/svar',
+            'it_IT' : 'Verifica/Rispondi',
+			'fa_IR' : 'Check/Reply'
+           },
+        'Operator':{ 
+            'de_DE' : 'Operator',     
+            'es_ES' : 'Operador',
+            'af_ZA' : 'Operateur',
+            'fr_FR' : 'Opérateur',
+            'ms_MY' : 'Operator',
+            'nl_NL' : 'Operator',
+            'id_ID' : 'Operator' ,
+            'th_TH' : 'Operator',
+            'pt_BR' : 'Operador',
+            'da_DK' : 'Operatør',
+            'it_IT' : 'Operatore',
+			'fa_IR' : 'اپراتور'
+           },
+        'Value':{ 
+            'de_DE' : 'Wert',
+            'es_ES' : 'Valor',
+            'af_ZA' : 'Waarde',
+            'fr_FR' : 'Valeur',
+            'ms_MY' : 'Nilai',
+            'nl_NL' : 'Waarde',
+            'id_ID' : 'Nilai' ,
+            'th_TH' : 'ค่า',
+            'pt_BR' : 'Valor',
+            'da_DK' : 'Værdi',
+            'it_IT' : 'Valore',
+			'fa_IR' : 'مقدار'
+           },
+        'Add Private Attribute':{
+            'de_DE' : 'Pers&ouml;nliche Eigenschaft hinzuf&uuml;gen',
+            'es_ES' : 'Añadir Atributo Privado', 
+            'af_ZA' : 'Nuwe Privaat Eienskap',
+            'fr_FR' : 'Ajouter un attribut privé',
+            'ms_MY' : 'Tambah Atribut Peribadi',
+            'nl_NL' : 'Prive-eigenschap toevoegen',
+            'id_ID' : 'Tambah attribute pribadi' ,
+            'th_TH' : 'เพิ่ม Attribute ส่วนตัว',
+            'pt_BR' : 'Adicionar Atributo Privado',
+            'da_DK' : 'Tilføj privat attribut',
+            'it_IT' : 'Aggiungi attributo privato',
+			'fa_IR' : 'افزودن صفت شخصی'
+           },
+        'Vendor':{ 
+            'de_DE' : 'Hersteller',
+            'es_ES' : 'Distribuidor',
+            'af_ZA' : 'Fabrikant',
+            'fr_FR' : 'Fabricant',
+            'ms_MY' : 'Pengeluar',
+            'nl_NL' : 'Operator',
+            'id_ID' : 'Vendor' ,
+            'th_TH' : 'Vendor',
+            'pt_BR' : 'Distribuidor',
+            'da_DK' : 'Leverandør',
+            'it_IT' : 'Marca',
+			'fa_IR' : 'سازنده'
+           },
+        'Save':{ 
+            'de_DE' : 'Speichern',
+            'es_ES' : 'Guardar',
+            'af_ZA' : 'Stoor',
+            'fr_FR' : 'Sauver',
+            'ms_MY' : 'Simpan',
+            'nl_NL' : 'Opslaan',
+            'id_ID' : 'Simpan' ,
+            'th_TH' : 'บันทึก',
+            'pt_BR' : 'Salvar',
+            'da_DK' : 'Gem',
+            'it_IT' : 'Salva',
+			'fa_IR' : 'ذخیره'
+           },
+        'Attribute added':{ 
+            'de_DE' : 'Attribut hinzugef&uuml;gt',
+            'es_ES' : 'Atributo añadido',
+            'af_ZA' : 'Eieneskap bygevoeg',
+            'fr_FR' : 'Attribut ajouté avec succès',
+            'ms_MY' : 'Berjaya menambah Atribut',
+            'nl_NL' : 'Eigenschap succesvol toegevoegd',
+            'id_ID' : 'Attribute telah ditambahkan' ,
+            'th_TH' : 'เพิ่ม Attribute แล้ว',
+            'pt_BR' : 'Atributo adicionado',
+            'da_DK' : 'Attribut tilføjet!',
+            'it_IT' : 'Attributo aggiunto',
+			'fa_IR' : 'صفت افزوده شد'
+           },
+        'Problems adding attribute':{ 
+            'de_DE' : 'Problem beim hinzuf&uuml;gen der Eigenschaft',
+            'es_ES' : 'Problemas añadiendo atributo',
+            'af_ZA' : 'Probleem met byvoeg',
+            'fr_FR' : "Des problèmes sont survenus lors de l'ajout de l'attribut",
+            'ms_MY' : 'Gagal menambah Atribut',
+            'nl_NL' : 'Eigenschap toevoegen mislukt',
+            'id_ID' : 'Penambahan attribute bermasalah' ,
+            'th_TH' : 'มีปัญหาในการเพิ่ม Attribute',
+            'pt_BR' : 'Problemas ao adicionar o atributo',
+            'da_DK' : 'Problemer med at tilføje attribut',
+            'it_IT' : 'Problemi in aggiunta attributo',
+			'fa_IR' : 'ایرادات اضافه کردن صفت'
+           },
+        'Edit selection limit to one':{ 
+            'de_DE' : 'Auswahl zum bearbeiten ist auf 1 limitiert',
+            'es_ES' : 'Editar límite de selección a uno',
+            'af_ZA' : 'Slegs een toegelaat',
+            'fr_FR' : 'Un seul attribut peut être édité à la fois',
+            'ms_MY' : 'Perubahan terpilih dihadkan kepada satu',
+            'nl_NL' : 'U kunt slechts een item per keer wijzigen',
+            'id_ID' : 'Pilihan yang diedit dibatasi satu' ,
+            'th_TH' : 'แก้ไขได้ครั้งละหนึ่งรายการเท่านั้น',
+            'pt_BR' : 'Editar limite de seleção somente a um',
+            'da_DK' : 'Kun én kan ændres af gangen',
+            'it_IT' : 'Modifica possibile ad una sola selezione alla volta',
+			'fa_IR' : 'محدودیت انتخاب ویرایش یک'
+           },
+        'Change Password On Users Tab':{
+            'de_DE' : '&Auml;ndern Sie das Kennwort in der Registerkarte "Benutzer"',
+            'es_ES' : 'Cambiar Contraseña en Pestaña de Usuarios', 
+            'af_ZA' : 'Verander Wagwoord Op Gebruikers Paneel',
+            'fr_FR' : "Changer le mot de passe dans l'onglet Utilisateurs",
+            'ms_MY' : 'Tukar Katalaluan pada Tab Pengguna',
+            'nl_NL' : 'Wijzig wachtwoord op gebruikerstabblad',
+            'id_ID' : 'Ganti kata sandi untuk pada tab user' ,
+            'th_TH' : 'เปลี่ยนรหัสผ่านบนแท็บของผู้ใช้',
+            'pt_BR' : 'Alterar Senha na Aba Usuários',
+            'da_DK' : 'Skift adgangskode på brugerfane',
+            'it_IT' : 'Modifica la password nel campo dell\'utente',
+			'fa_IR' : 'تعویض گذرواژه در نوار کاربران'
+           },
+        'No Selection made':{ 
+            'de_DE' : 'Keine Auswahl getroffen',
+            'es_ES' : 'No ha seleccionado nada',
+            'af_ZA' : 'Niks gekies nie',
+            'fr_FR' : 'Aucun élément sélectionné',
+            'ms_MY' : 'Tiada pilihan dibuat',
+            'nl_NL' : 'Maak eerst een selectie',
+            'id_ID' : 'Anda belum memilih' ,
+            'th_TH' : 'ไม่มีการเลือก',
+            'pt_BR' : 'Não há nada selecionado',
+            'da_DK' : 'Intet valgt',
+            'it_IT' : 'Nessuna selezione',
+			'fa_IR' : 'هیچ انتخابی انجام نشده'
+           },
+        'Edit Private Attribute':{ 
+            'de_DE' : 'Pers&ouml;nliches Eigenschaft bearbeiten',
+            'es_ES' : 'Editar Atributo Privado',
+            'af_ZA' : 'Verander Privaat Eienskap',
+            'fr_FR' : "Editer l'attribut privé",
+            'ms_MY' : 'Ubah Atribut Peribadi',
+            'nl_NL' : 'Wijzig prive-eigenschap',
+            'id_ID' : 'Edit attribute pribadi' ,
+            'th_TH' : 'แก้ไข Attribute ส่วนตัว',
+            'pt_BR' : 'Editar Atributo Privado',
+            'da_DK' : 'Redigér den private attribut',
+            'it_IT' : 'Modifica attributi privati',
+			'fa_IR' : 'ویرایش صفت اختصاصی'
+           },
+        'Attribute changed':{ 
+            'de_DE' : 'Eigenschaft ge&auml;ndert',
+            'es_ES' : 'Atributo cambiado',
+            'af_ZA' : 'Eienskap is verander',
+            'fr_FR' : "L'attribut a été mis à jour avec succès",
+            'ms_MY' : 'Berjaya mengubah Atribut',
+            'nl_NL' : 'Eigenschap succesvol gewijzigd',
+            'id_ID' : 'Attribute telah diubah' ,
+            'th_TH' : 'เปลี่ยนแปลง Attribute แล้ว',
+            'pt_BR' : 'Atributo alterado',
+            'da_DK' : 'Attribut ændret!',
+            'it_IT' : 'Attributi modificati',
+			'fa_IR' : 'صفت تغییر کرد'
+           },
+        'Problems changing attribute':{ 
+            'de_DE' : 'Problem beim &auml;ndern der Eigenschaft',
+            'es_ES' : 'Problemas cambiando atributo',
+            'af_ZA' : 'Probleme om einenskap te verander',
+            'fr_FR' : "Des problèmes sont survenus lors de l'édition de l'attribut",
+            'ms_MY' : 'Gagal mengubah Atribut',
+            'nl_NL' : 'Eigenschap wijzigen mislukt',
+            'id_ID' : 'Perubahan Attribute bermasalah' ,
+            'th_TH' : 'มีปัญหาในการเปลี่ยนแปลง Attribute',
+            'pt_BR' : 'Problemas ao alterar o atributo',
+            'da_DK' : 'Problemer med at ændre attribut',
+            'it_IT' : 'Problemi durante la modifica degli attributi',
+			'fa_IR' : 'ایرادات تغییر صفت'
+           }
+    };
+
+})();//(function(){
+
+}

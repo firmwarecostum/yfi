@@ -1,0 +1,77 @@
+/* PhotoWidget.css */
+.photoWidget {
+	border: 1px solid black;
+	width: 400px;
+	padding: 10px;
+    background-color:#b0c4de;
+    margin: 10px;
+	overflow: hidden; /* I hear this helps clear floats inside */
+}
+
+.photoWidget h3 {
+	font-size: 1.5em;
+	font-style: italic;
+	text-align: center;
+	margin: 0px;
+}
+
+.photoWidgetPicture {
+	float: left;
+	margin: 4px 12px 6px 0px;
+	max-width: 270px;
+	max-height: 270px;
+}
+
+.Actions {
+	height: 40px;
+    float: right;
+    border: 1px solid #000000;
+    background-color: #6bf96f;
+}
+
+.FancyIcon {
+    background-repeat:no-repeat;
+    float: left;
+    cursor: pointer;
+    border: 0px;
+    padding: 0px;
+    margin: 0px;
+}
+
+.FancyIcon .delete {
+    background-image:url('../images/delete.png');
+    height:33px;
+    width:33px;
+}
+
+.FancyIcon .delete:hover {
+    background-image:url('../images/delete_over.png');
+    height:49px;
+    width:49px;
+}
+
+.FancyIcon .add {
+    background-image:url('../images/add.png');
+    height:32px;
+    width:32px;
+}
+
+.FancyIcon .add:hover {
+    background-image:url('../images/add_over.png');
+    height:48px;
+    width:48px;
+}
+
+.FancyIcon .edit {
+    background-image:url('../images/edit.png');
+    height:33px;
+    width:33px;
+}
+
+.FancyIcon .edit:hover {
+    background-image:url('../images/edit_over.png');
+    height:49px;
+    width:49px;
+}
+
+

@@ -1,0 +1,218 @@
+html, body {
+    height: 100%; 
+    width: 100%;
+    overflow: hidden;   /* erase window level scrollbars */
+    padding: 0 0 0 0;
+    margin: 0 0 0 0;
+    font: 10pt Arial,Myriad,Tahoma,Verdana,sans-serif;
+}
+
+#componentLoginLightFeedback {
+ font-weight: bold;
+ color:red;
+ height: 2em;
+}
+
+
+#componentsMainBanner  {
+
+color: green;
+
+}
+
+
+.detailItem {
+
+    font-weight: bold;
+    color:blue;
+    height: 5em;
+    width:20em;
+}
+
+
+/*----Icons for the buttons----*/ 
+.clearIcon {
+    background-image:url('../img/actions/clear.png');
+    background-repeat:no-repeat;
+    height:18px;
+    width:18px;
+}
+
+.okIcon {
+    background-image:url('../img/actions/ok.png');
+    background-repeat:no-repeat;
+    height:18px;
+    width:18px;
+}
+
+.cancelIcon {
+    background-image:url('../img/actions/cancel.png');
+    background-repeat:no-repeat;
+    height:18px;
+    width:18px;
+}
+
+.saveIcon {
+    background-image:url('../img/actions/save.png');
+    background-repeat:no-repeat;
+    height:18px;
+    width:18px;
+}
+
+.addIcon {
+    background-image:url('../img/actions/add_small.png');
+    background-repeat:no-repeat;
+    height:18px;
+    width:18px;
+}
+
+.disconnectIcon {
+    background-image:url('../img/actions/disconnect.png');
+    background-repeat:no-repeat;
+    height:32px;
+    width:32px;
+}
+
+.connectIcon {
+    background-image:url('../img/actions/connect.png');
+    background-repeat:no-repeat;
+    height:32px;
+    width:32px;
+}
+
+
+
+/*-----END Icons for the buttons -----*/
+
+
+/*----Form label---------*/
+.frmRequired  {
+
+    width: 130px;
+    height: 30px;
+    float: left;
+    font-weight: bold;
+    color:#393a39;
+    text-align: right;
+    margin-right: 6px;
+}
+
+.frmOptional  {
+
+    width: 130px;
+    height: 30px;
+    float: left;
+    color:#828288;
+    font-weight: normal;
+    text-align: right;
+    margin-right: 6px;
+}
+/*---- END Form lable ------*/
+
+
+.divWrapper {
+
+    height: 100%; 
+    width: 100%;
+    overflow: hidden;   /* erase window level scrollbars */
+}
+
+.divRightCategory {
+
+    height:300px;
+    width: 500px; 
+    background-color: #beedd5;
+    border: 1px solid #000000;
+    padding: 10px;
+    margin: 10px;
+    margin-bottom: 20px;
+}
+
+.divProfile {
+
+    height: 90px;
+    padding: 2px;
+    padding-left: 20px;
+    padding-right: 20px;
+    /*background-color: green;*/
+}
+
+.divSelects {
+
+    width: 400px;
+    padding-top: 5px;
+    border-top: 1px solid #000000;
+    border-left: 1px solid #000000;
+    border-bottom: 1px solid #000000;
+    background-color: #6bf96f;
+    float: right;
+
+}
+
+.divForm {
+    width:400px; 
+    background-color: #beedd5;
+    border: 1px solid #000000;
+    padding: 2px;
+}
+
+/* Experiment */
+.my_border { 
+
+    width:30em;
+    height:auto; 
+    padding: 10px;
+    margin-top: 10px;
+    color: #fff;
+}
+.my_border, .my_border .sb-inner { background:#444 url('../img/round_corners/grad.png') repeat-x; }
+
+/* End Experiment */
+
+.tundra .dijitProgressBarFull .green{
+    background:#f0f0f0 url("../img/progress_bar/pbgreen.png") repeat-x center center;
+}
+
+.tundra .dijitProgressBarFull .orange{
+    background:#f0f0f0 url("../img/progress_bar/pborange.png") repeat-x center center;
+}
+
+.tundra .dijitProgressBarFull .red{
+    background:#f0f0f0 url("../img/progress_bar/pbred.png") repeat-x center center;
+}
+
+.tundra .chilliRow {
+   background-color:#e5f4e5;
+}
+
+.tundra .chilliLabel {
+    color:green;
+    font: 10pt bold Arial,Myriad,Tahoma,Verdana,sans-serif;
+}
+
+.tundra .chilliValue {
+    color:black;
+    font: 10pt Arial,Myriad,Tahoma,Verdana,sans-serif;
+}
+
+/*----Icons for the tabs----*/ 
+
+.usageTab {
+    background-image:url('../img/tabs/usage.png');
+    background-repeat:no-repeat;
+    height:22px;
+    width:22px;
+}
+
+.statsTab {
+    background-image:url('../img/tabs/stats.png');
+    background-repeat:no-repeat;
+    height:22px;
+    width:22px;
+}
+
+/*-----END Icons for the tabs -----*/
+
+
+
+

@@ -26,9 +26,9 @@ function radclient_fix(){
         sed 's|/usr/local/bin/radclient|/usr/bin/radclient|g' $1 > $1.tmp;mv $1.tmp $1;
 }
 
-function etc_raddb_rlm_perl_modules_to_etc_freeradius2_rlm_perl_modules(){
-        echo "Change /etc/raddb/rlm_perl_modules to /etc/freeradius2/rlm_perl_modules for" $1
-        sed 's|/etc/raddb/rlm_perl_modules|/etc/freeradius2/rlm_perl_modules|g' $1 > $1.tmp;mv $1.tmp $1;
+function etc_raddb_to_etc_freeradius2(){
+        echo "Change /etc/raddb to /etc/freeradius2 for" $1
+        sed 's|/etc/raddb|/etc/freeradius2|g' $1 > $1.tmp;mv $1.tmp $1;
 }
 
 function usr_share_freeradius_to_usr_share_freeradius2(){
@@ -57,7 +57,7 @@ do
         usr_local_share_to_usr_share $i
         var_www_c2_to_www_c2 $i
         radclient_fix $i
-        etc_raddb_rlm_perl_modules_to_etc_freeradius2_rlm_perl_modules $i
+        etc_raddb_to_etc_freeradius2 $i
         usr_share_freeradius_to_usr_share_freeradius2 $i
 done
 

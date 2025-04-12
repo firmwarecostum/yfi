@@ -35,7 +35,7 @@ function usr_share_freeradius_to_usr_share_freeradius2(){
         sed 's|/usr/share/freeradius|/usr/share/freeradius2|g' $1 > $1.tmp;mv $1.tmp $1;
 }
 
-function var_www_c2_messages.po_to_www_c2_messages.po(){
+function var_www_c2_plugin_messages.po_to_www_c2_plugin_messages.po(){
         echo "Change /var/www/c2 to /www for" $1
         sed 's|/var/www/c2|/www/c2|g' $1 > $1.tmp;mv $1.tmp $1;
 }
@@ -54,6 +54,10 @@ file_list[10]="raddb/rlm_perl_modules/Nas.pm"
 file_list[11]="raddb/dictionary"
 file_list[12]="yfi_cake/webroot/files/radscenario.pl"
 file_list[13]="yfi_cake/plugins/locale/*/*/messages.po"
+file_list[14]="yfi_cake/plugins/locale/fa_IR/LC_MESSAGES/messages.po"
+file_list[15]="yfi_cake/plugins/locale/it_IT/LC_MESSAGES/messages.po"
+file_list[16]="yfi_cake/plugins/locale/translations/create_po_file.pl"
+file_list[17]="yfi_cake/plugins/locale/translations/messages.po"
 
 for i in  ${file_list[@]}
 do
@@ -63,6 +67,6 @@ do
         radclient_fix $i
         etc_raddb_to_etc_freeradius2 $i
         usr_share_freeradius_to_usr_share_freeradius2 $i
-        var_www_c2_messages.po_to_www_c2_messages.po $i
+        var_www_c2_plugin_messages.po_to_www_c2_plugin_messages.po $i
 done
 

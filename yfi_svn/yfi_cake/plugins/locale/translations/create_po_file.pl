@@ -2,7 +2,7 @@
 
 use strict;
 
-my $hotcakes_install_dir = '/var/www/c2/yfi_cake';
+my $hotcakes_install_dir = '/www/c2/yfi_cake';
 
 my @file_list = (
                 'controllers/components/leftpane.php',

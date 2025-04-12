@@ -40,6 +40,11 @@ function var_www_c2_plugin_messages.po_to_www_c2_plugin_messages.po(){
         sed 's|/var/www/c2|/www/c2|g' $1 > $1.tmp;mv $1.tmp $1;
 }
 
+function var_www_html_c2_plugin_messages.po_to_www_c2_plugin_messages.po(){
+        echo "Change /var/www/html/c2 to /www for" $1
+        sed 's|/var/www/html/c2|/www/c2|g' $1 > $1.tmp;mv $1.tmp $1;
+}
+
 file_list[0]="yfi_cake/config/yfi.php"
 file_list[1]="raddb/rlm_perl_modules/conf/settings.conf"
 file_list[2]="raddb/rlm_perl_modules/Attributes.pm"
@@ -68,5 +73,6 @@ do
         etc_raddb_to_etc_freeradius2 $i
         usr_share_freeradius_to_usr_share_freeradius2 $i
         var_www_c2_plugin_messages.po_to_www_c2_plugin_messages.po $i
+        var_www_html_c2_plugin_messages.po_to_www_c2_plugin_messages.po $i
 done
 

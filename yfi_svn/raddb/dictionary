@@ -11,7 +11,7 @@
 #
 #	The filename given here should be an absolute path. 
 #
-$INCLUDE	/usr/share/freeradius22222/dictionary
+$INCLUDE	/usr/share/freeradius222222/dictionary
 
 #
 #	Place additional attributes or $INCLUDEs here.  They will

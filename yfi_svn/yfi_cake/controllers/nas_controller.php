@@ -62,7 +62,7 @@ class NasController extends AppController {
 
         if($quick == false){
   	        //Run a heartbeat test to see if some devices may have pulsed us...
- 	  	    exec("/www/c2/cake/console/cake -app /www/c2/yfi_cake nasmonitor -only_heartbeat >> /dev/null 2>&1");
+ 	  	    exec("/var/www/c2/cake/console/cake -app /var/www/c2/yfi_cake nasmonitor -only_heartbeat >> /dev/null 2>&1");
  	    }
 
         //Loop through it and check the user's rights decide whether to display or not

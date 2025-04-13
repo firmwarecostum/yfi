@@ -30,7 +30,7 @@ use POSIX;
 use vars qw(%RAD_REQUEST %RAD_REPLY %RAD_CHECK %RAD_CONFIG);
 use Data::Dumper;
 
-use lib "/etc/freeradius2/rlm_perl_modules";
+use lib "/usr/local/etc/raddb/rlm_perl_modules";
 use SQLConnector;
 
 # This is hash wich hold original request from radius

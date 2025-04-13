@@ -13,7 +13,7 @@ class LanguagesController extends AppController {
             //Get the configuration values from the configuration table
             $lang       = $this->ConfigurationItem->find("name='language'");
             $language   = $lang['ConfigurationItem']['value'];
-            //$locale_location = "/www/cake/hotcakes/plugins/locale";
+            //$locale_location = "/var/www/cake/hotcakes/plugins/locale";
             //----------END OF CONFIG ---------------------------------------
         }
         putenv("LANG=$language"); 

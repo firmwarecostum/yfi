@@ -16,731 +16,731 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: KBabel 1.11.4\n"
 
-#: /www/c2/yfi_cake/controllers/components/leftpane.php:40
-#: /www/c2/yfi_cake/controllers/components/leftpane.php:95
-#: /www/c2/yfi_cake/controllers/components/workspace.php:53
-#: /www/c2/yfi_cake/controllers/components/workspace.php:291
+#: /var/www/c2/yfi_cake/controllers/components/leftpane.php:40
+#: /var/www/c2/yfi_cake/controllers/components/leftpane.php:95
+#: /var/www/c2/yfi_cake/controllers/components/workspace.php:53
+#: /var/www/c2/yfi_cake/controllers/components/workspace.php:291
 msgid "Vouchers"
 msgstr "Tickets"
 
-#: /www/c2/yfi_cake/controllers/components/leftpane.php:42
-#: /www/c2/yfi_cake/controllers/components/leftpane.php:90
+#: /var/www/c2/yfi_cake/controllers/components/leftpane.php:42
+#: /var/www/c2/yfi_cake/controllers/components/leftpane.php:90
 msgid "Voucher Management"
 msgstr "Ticket Management"
 
-#: /www/c2/yfi_cake/controllers/components/leftpane.php:42
-#: /www/c2/yfi_cake/controllers/components/leftpane.php:92
+#: /var/www/c2/yfi_cake/controllers/components/leftpane.php:42
+#: /var/www/c2/yfi_cake/controllers/components/leftpane.php:92
 msgid "Batch Management"
 msgstr "Batch Management"
 
-#: /www/c2/yfi_cake/controllers/components/leftpane.php:45
-#: /www/c2/yfi_cake/controllers/components/leftpane.php:105
+#: /var/www/c2/yfi_cake/controllers/components/leftpane.php:45
+#: /var/www/c2/yfi_cake/controllers/components/leftpane.php:105
 msgid "Permanent Users"
 msgstr "Permanente Benutzer"
 
-#: /www/c2/yfi_cake/controllers/components/leftpane.php:47
-#: /www/c2/yfi_cake/controllers/components/leftpane.php:107
+#: /var/www/c2/yfi_cake/controllers/components/leftpane.php:47
+#: /var/www/c2/yfi_cake/controllers/components/leftpane.php:107
 msgid "User Management"
 msgstr "Benutzer Management"
 
-#: /www/c2/yfi_cake/controllers/components/leftpane.php:50
-#: /www/c2/yfi_cake/controllers/components/leftpane.php:112
+#: /var/www/c2/yfi_cake/controllers/components/leftpane.php:50
+#: /var/www/c2/yfi_cake/controllers/components/leftpane.php:112
 msgid "Accounting"
 msgstr "Rechnungen"
 
-#: /www/c2/yfi_cake/controllers/components/leftpane.php:52
-#: /www/c2/yfi_cake/controllers/components/leftpane.php:114
+#: /var/www/c2/yfi_cake/controllers/components/leftpane.php:52
+#: /var/www/c2/yfi_cake/controllers/components/leftpane.php:114
 msgid "Account Management"
 msgstr "Rechnungsverwaltung"
 
-#: /www/c2/yfi_cake/controllers/components/leftpane.php:52
-#: /www/c2/yfi_cake/controllers/components/leftpane.php:114
-#: /www/c2/yfi_cake/controllers/components/workspace.php:245
-#: /www/c2/yfi_cake/controllers/components/workspace.php:443
+#: /var/www/c2/yfi_cake/controllers/components/leftpane.php:52
+#: /var/www/c2/yfi_cake/controllers/components/leftpane.php:114
+#: /var/www/c2/yfi_cake/controllers/components/workspace.php:245
+#: /var/www/c2/yfi_cake/controllers/components/workspace.php:443
 msgid "Billing Plans"
 msgstr "Tarife"
 
-#: /www/c2/yfi_cake/controllers/components/leftpane.php:56
-#: /www/c2/yfi_cake/controllers/components/leftpane.php:121
+#: /var/www/c2/yfi_cake/controllers/components/leftpane.php:56
+#: /var/www/c2/yfi_cake/controllers/components/leftpane.php:121
 msgid "Realms & Providers"
 msgstr "Standorte & Dienstanbieter"
 
-#: /www/c2/yfi_cake/controllers/components/leftpane.php:58
+#: /var/www/c2/yfi_cake/controllers/components/leftpane.php:58
 msgid "Realm Management"
 msgstr "Standortmanagement"
 
-#: /www/c2/yfi_cake/controllers/components/leftpane.php:58
-#: /www/c2/yfi_cake/controllers/components/leftpane.php:123
-#: /www/c2/yfi_cake/controllers/components/workspace.php:133
-#: /www/c2/yfi_cake/controllers/components/workspace.php:351
+#: /var/www/c2/yfi_cake/controllers/components/leftpane.php:58
+#: /var/www/c2/yfi_cake/controllers/components/leftpane.php:123
+#: /var/www/c2/yfi_cake/controllers/components/workspace.php:133
+#: /var/www/c2/yfi_cake/controllers/components/workspace.php:351
 msgid "Nas Devices"
 msgstr "NAS-Endgeraete"
 
-#: /www/c2/yfi_cake/controllers/components/leftpane.php:58
-#: /www/c2/yfi_cake/controllers/components/workspace.php:154
+#: /var/www/c2/yfi_cake/controllers/components/leftpane.php:58
+#: /var/www/c2/yfi_cake/controllers/components/workspace.php:154
 msgid "Access Providers"
 msgstr "Dienstanbieter"
 
-#: /www/c2/yfi_cake/controllers/components/leftpane.php:61
-#: /www/c2/yfi_cake/controllers/components/leftpane.php:136
-#: /www/c2/yfi_cake/controllers/components/workspace.php:195
-#: /www/c2/yfi_cake/controllers/components/workspace.php:391
+#: /var/www/c2/yfi_cake/controllers/components/leftpane.php:61
+#: /var/www/c2/yfi_cake/controllers/components/leftpane.php:136
+#: /var/www/c2/yfi_cake/controllers/components/workspace.php:195
+#: /var/www/c2/yfi_cake/controllers/components/workspace.php:391
 msgid "Profiles"
 msgstr "Profile"
 
-#: /www/c2/yfi_cake/controllers/components/leftpane.php:63
-#: /www/c2/yfi_cake/controllers/components/leftpane.php:131
-#: /www/c2/yfi_cake/controllers/components/workspace.php:175
-#: /www/c2/yfi_cake/controllers/components/workspace.php:371
+#: /var/www/c2/yfi_cake/controllers/components/leftpane.php:63
+#: /var/www/c2/yfi_cake/controllers/components/leftpane.php:131
+#: /var/www/c2/yfi_cake/controllers/components/workspace.php:175
+#: /var/www/c2/yfi_cake/controllers/components/workspace.php:371
 msgid "Profile Templates"
 msgstr "Tarifvorlagen"
 
-#: /www/c2/yfi_cake/controllers/components/leftpane.php:63
-#: /www/c2/yfi_cake/controllers/components/leftpane.php:133
+#: /var/www/c2/yfi_cake/controllers/components/leftpane.php:63
+#: /var/www/c2/yfi_cake/controllers/components/leftpane.php:133
 msgid "Specific Profiles"
 msgstr "Profile"
 
-#: /www/c2/yfi_cake/controllers/components/leftpane.php:67
-#: /www/c2/yfi_cake/controllers/components/leftpane.php:144
+#: /var/www/c2/yfi_cake/controllers/components/leftpane.php:67
+#: /var/www/c2/yfi_cake/controllers/components/leftpane.php:144
 msgid "Activity/Stats"
 msgstr "Aktivitaet / Statistik"
 
-#: /www/c2/yfi_cake/controllers/components/leftpane.php:69
-#: /www/c2/yfi_cake/controllers/components/leftpane.php:146
+#: /var/www/c2/yfi_cake/controllers/components/leftpane.php:69
+#: /var/www/c2/yfi_cake/controllers/components/leftpane.php:146
 msgid "Activity Viewer"
 msgstr "Aktivitaeten"
 
-#: /www/c2/yfi_cake/controllers/components/leftpane.php:158
+#: /var/www/c2/yfi_cake/controllers/components/leftpane.php:158
 msgid "User Detail"
 msgstr "Benutzereinstellungen"
 
-#: /www/c2/yfi_cake/controllers/components/leftpane.php:160
-#: /www/c2/yfi_cake/controllers/components/workspace.php:479
+#: /var/www/c2/yfi_cake/controllers/components/leftpane.php:160
+#: /var/www/c2/yfi_cake/controllers/components/workspace.php:479
 msgid "General Detail"
 msgstr "Algemeine Einstellungen"
 
-#: /www/c2/yfi_cake/controllers/components/leftpane.php:160
-#: /www/c2/yfi_cake/controllers/components/workspace.php:488
+#: /var/www/c2/yfi_cake/controllers/components/leftpane.php:160
+#: /var/www/c2/yfi_cake/controllers/components/workspace.php:488
 msgid "Invoices"
 msgstr "Rechnungen"
 
-#: /www/c2/yfi_cake/controllers/components/leftpane.php:160
-#: /www/c2/yfi_cake/controllers/components/workspace.php:497
+#: /var/www/c2/yfi_cake/controllers/components/leftpane.php:160
+#: /var/www/c2/yfi_cake/controllers/components/workspace.php:497
 msgid "Payments"
 msgstr "Zahlungen"
 
-#: /www/c2/yfi_cake/controllers/components/actions.php:16
-#: /www/c2/yfi_cake/controllers/components/actions.php:25
-#: /www/c2/yfi_cake/controllers/components/actions.php:47
-#: /www/c2/yfi_cake/controllers/components/actions.php:70
-#: /www/c2/yfi_cake/controllers/components/actions.php:77
-#: /www/c2/yfi_cake/controllers/components/actions.php:98
-#: /www/c2/yfi_cake/controllers/components/actions.php:103
-#: /www/c2/yfi_cake/controllers/components/actions.php:122
-#: /www/c2/yfi_cake/controllers/components/actions.php:133
-#: /www/c2/yfi_cake/controllers/components/actions.php:211
-#: /www/c2/yfi_cake/controllers/components/actions.php:216
-#: /www/c2/yfi_cake/controllers/components/actions.php:235
-#: /www/c2/yfi_cake/controllers/components/actions.php:245
-#: /www/c2/yfi_cake/controllers/components/actions.php:272
-#: /www/c2/yfi_cake/controllers/components/actions.php:280
-#: /www/c2/yfi_cake/controllers/components/actions.php:301
-#: /www/c2/yfi_cake/controllers/components/actions.php:311
-#: /www/c2/yfi_cake/controllers/components/actions.php:336
-#: /www/c2/yfi_cake/controllers/components/actions.php:343
-#: /www/c2/yfi_cake/controllers/components/actions.php:383
-#: /www/c2/yfi_cake/controllers/components/actions.php:397
-#: /www/c2/yfi_cake/controllers/components/actions.php:486
-#: /www/c2/yfi_cake/controllers/components/actions.php:491
-#: /www/c2/yfi_cake/controllers/components/actions.php:509
-#: /www/c2/yfi_cake/controllers/components/actions.php:518
-#: /www/c2/yfi_cake/controllers/components/actions.php:543
-#: /www/c2/yfi_cake/controllers/components/actions.php:552
-#: /www/c2/yfi_cake/controllers/components/actions.php:573
-#: /www/c2/yfi_cake/controllers/components/actions.php:584
-#: /www/c2/yfi_cake/controllers/components/actions.php:614
-#: /www/c2/yfi_cake/controllers/components/actions.php:622
-#: /www/c2/yfi_cake/controllers/components/actions.php:642
-#: /www/c2/yfi_cake/controllers/components/actions.php:650
-#: /www/c2/yfi_cake/controllers/components/actions.php:669
-#: /www/c2/yfi_cake/controllers/components/actions.php:676
+#: /var/www/c2/yfi_cake/controllers/components/actions.php:16
+#: /var/www/c2/yfi_cake/controllers/components/actions.php:25
+#: /var/www/c2/yfi_cake/controllers/components/actions.php:47
+#: /var/www/c2/yfi_cake/controllers/components/actions.php:70
+#: /var/www/c2/yfi_cake/controllers/components/actions.php:77
+#: /var/www/c2/yfi_cake/controllers/components/actions.php:98
+#: /var/www/c2/yfi_cake/controllers/components/actions.php:103
+#: /var/www/c2/yfi_cake/controllers/components/actions.php:122
+#: /var/www/c2/yfi_cake/controllers/components/actions.php:133
+#: /var/www/c2/yfi_cake/controllers/components/actions.php:211
+#: /var/www/c2/yfi_cake/controllers/components/actions.php:216
+#: /var/www/c2/yfi_cake/controllers/components/actions.php:235
+#: /var/www/c2/yfi_cake/controllers/components/actions.php:245
+#: /var/www/c2/yfi_cake/controllers/components/actions.php:272
+#: /var/www/c2/yfi_cake/controllers/components/actions.php:280
+#: /var/www/c2/yfi_cake/controllers/components/actions.php:301
+#: /var/www/c2/yfi_cake/controllers/components/actions.php:311
+#: /var/www/c2/yfi_cake/controllers/components/actions.php:336
+#: /var/www/c2/yfi_cake/controllers/components/actions.php:343
+#: /var/www/c2/yfi_cake/controllers/components/actions.php:383
+#: /var/www/c2/yfi_cake/controllers/components/actions.php:397
+#: /var/www/c2/yfi_cake/controllers/components/actions.php:486
+#: /var/www/c2/yfi_cake/controllers/components/actions.php:491
+#: /var/www/c2/yfi_cake/controllers/components/actions.php:509
+#: /var/www/c2/yfi_cake/controllers/components/actions.php:518
+#: /var/www/c2/yfi_cake/controllers/components/actions.php:543
+#: /var/www/c2/yfi_cake/controllers/components/actions.php:552
+#: /var/www/c2/yfi_cake/controllers/components/actions.php:573
+#: /var/www/c2/yfi_cake/controllers/components/actions.php:584
+#: /var/www/c2/yfi_cake/controllers/components/actions.php:614
+#: /var/www/c2/yfi_cake/controllers/components/actions.php:622
+#: /var/www/c2/yfi_cake/controllers/components/actions.php:642
+#: /var/www/c2/yfi_cake/controllers/components/actions.php:650
+#: /var/www/c2/yfi_cake/controllers/components/actions.php:669
+#: /var/www/c2/yfi_cake/controllers/components/actions.php:676
 msgid "Reload List"
 msgstr "Liste aktualisieren"
 
-#: /www/c2/yfi_cake/controllers/components/actions.php:17
-#: /www/c2/yfi_cake/controllers/components/actions.php:27
-#: /www/c2/yfi_cake/controllers/components/actions.php:71
-#: /www/c2/yfi_cake/controllers/components/actions.php:79
-#: /www/c2/yfi_cake/controllers/components/actions.php:126
-#: /www/c2/yfi_cake/controllers/components/actions.php:141
-#: /www/c2/yfi_cake/controllers/components/actions.php:180
-#: /www/c2/yfi_cake/controllers/components/actions.php:188
-#: /www/c2/yfi_cake/controllers/components/actions.php:238
-#: /www/c2/yfi_cake/controllers/components/actions.php:253
-#: /www/c2/yfi_cake/controllers/components/actions.php:274
-#: /www/c2/yfi_cake/controllers/components/actions.php:283
-#: /www/c2/yfi_cake/controllers/components/actions.php:302
-#: /www/c2/yfi_cake/controllers/components/actions.php:314
-#: /www/c2/yfi_cake/controllers/components/actions.php:361
-#: /www/c2/yfi_cake/controllers/components/actions.php:369
-#: /www/c2/yfi_cake/controllers/components/actions.php:389
-#: /www/c2/yfi_cake/controllers/components/actions.php:416
-#: /www/c2/yfi_cake/controllers/components/actions.php:457
-#: /www/c2/yfi_cake/controllers/components/actions.php:465
-#: /www/c2/yfi_cake/controllers/components/actions.php:544
-#: /www/c2/yfi_cake/controllers/components/actions.php:554
-#: /www/c2/yfi_cake/controllers/components/actions.php:577
-#: /www/c2/yfi_cake/controllers/components/actions.php:591
-#: /www/c2/yfi_cake/controllers/components/actions.php:670
-#: /www/c2/yfi_cake/controllers/components/actions.php:678
+#: /var/www/c2/yfi_cake/controllers/components/actions.php:17
+#: /var/www/c2/yfi_cake/controllers/components/actions.php:27
+#: /var/www/c2/yfi_cake/controllers/components/actions.php:71
+#: /var/www/c2/yfi_cake/controllers/components/actions.php:79
+#: /var/www/c2/yfi_cake/controllers/components/actions.php:126
+#: /var/www/c2/yfi_cake/controllers/components/actions.php:141
+#: /var/www/c2/yfi_cake/controllers/components/actions.php:180
+#: /var/www/c2/yfi_cake/controllers/components/actions.php:188
+#: /var/www/c2/yfi_cake/controllers/components/actions.php:238
+#: /var/www/c2/yfi_cake/controllers/components/actions.php:253
+#: /var/www/c2/yfi_cake/controllers/components/actions.php:274
+#: /var/www/c2/yfi_cake/controllers/components/actions.php:283
+#: /var/www/c2/yfi_cake/controllers/components/actions.php:302
+#: /var/www/c2/yfi_cake/controllers/components/actions.php:314
+#: /var/www/c2/yfi_cake/controllers/components/actions.php:361
+#: /var/www/c2/yfi_cake/controllers/components/actions.php:369
+#: /var/www/c2/yfi_cake/controllers/components/actions.php:389
+#: /var/www/c2/yfi_cake/controllers/components/actions.php:416
+#: /var/www/c2/yfi_cake/controllers/components/actions.php:457
+#: /var/www/c2/yfi_cake/controllers/components/actions.php:465
+#: /var/www/c2/yfi_cake/controllers/components/actions.php:544
+#: /var/www/c2/yfi_cake/controllers/components/actions.php:554
+#: /var/www/c2/yfi_cake/controllers/components/actions.php:577
+#: /var/www/c2/yfi_cake/controllers/components/actions.php:591
+#: /var/www/c2/yfi_cake/controllers/components/actions.php:670
+#: /var/www/c2/yfi_cake/controllers/components/actions.php:678
 msgid "Edit Selected"
 msgstr "Ausgewaehlte bearbeiten"
 
-#: /www/c2/yfi_cake/controllers/components/actions.php:18
-#: /www/c2/yfi_cake/controllers/components/actions.php:30
+#: /var/www/c2/yfi_cake/controllers/components/actions.php:18
+#: /var/www/c2/yfi_cake/controllers/components/actions.php:30
 msgid "Add Template"
 msgstr "Vorlage hinzufuegen"
 
-#: /www/c2/yfi_cake/controllers/components/actions.php:19
-#: /www/c2/yfi_cake/controllers/components/actions.php:33
-#: /www/c2/yfi_cake/controllers/components/actions.php:51
-#: /www/c2/yfi_cake/controllers/components/actions.php:57
-#: /www/c2/yfi_cake/controllers/components/actions.php:73
-#: /www/c2/yfi_cake/controllers/components/actions.php:85
-#: /www/c2/yfi_cake/controllers/components/actions.php:99
-#: /www/c2/yfi_cake/controllers/components/actions.php:105
-#: /www/c2/yfi_cake/controllers/components/actions.php:128
-#: /www/c2/yfi_cake/controllers/components/actions.php:147
-#: /www/c2/yfi_cake/controllers/components/actions.php:182
-#: /www/c2/yfi_cake/controllers/components/actions.php:196
-#: /www/c2/yfi_cake/controllers/components/actions.php:212
-#: /www/c2/yfi_cake/controllers/components/actions.php:218
-#: /www/c2/yfi_cake/controllers/components/actions.php:240
-#: /www/c2/yfi_cake/controllers/components/actions.php:259
-#: /www/c2/yfi_cake/controllers/components/actions.php:275
-#: /www/c2/yfi_cake/controllers/components/actions.php:286
-#: /www/c2/yfi_cake/controllers/components/actions.php:305
-#: /www/c2/yfi_cake/controllers/components/actions.php:323
-#: /www/c2/yfi_cake/controllers/components/actions.php:337
-#: /www/c2/yfi_cake/controllers/components/actions.php:345
-#: /www/c2/yfi_cake/controllers/components/actions.php:391
-#: /www/c2/yfi_cake/controllers/components/actions.php:422
-#: /www/c2/yfi_cake/controllers/components/actions.php:459
-#: /www/c2/yfi_cake/controllers/components/actions.php:473
-#: /www/c2/yfi_cake/controllers/components/actions.php:487
-#: /www/c2/yfi_cake/controllers/components/actions.php:493
-#: /www/c2/yfi_cake/controllers/components/actions.php:546
-#: /www/c2/yfi_cake/controllers/components/actions.php:560
-#: /www/c2/yfi_cake/controllers/components/actions.php:672
-#: /www/c2/yfi_cake/controllers/components/actions.php:684
+#: /var/www/c2/yfi_cake/controllers/components/actions.php:19
+#: /var/www/c2/yfi_cake/controllers/components/actions.php:33
+#: /var/www/c2/yfi_cake/controllers/components/actions.php:51
+#: /var/www/c2/yfi_cake/controllers/components/actions.php:57
+#: /var/www/c2/yfi_cake/controllers/components/actions.php:73
+#: /var/www/c2/yfi_cake/controllers/components/actions.php:85
+#: /var/www/c2/yfi_cake/controllers/components/actions.php:99
+#: /var/www/c2/yfi_cake/controllers/components/actions.php:105
+#: /var/www/c2/yfi_cake/controllers/components/actions.php:128
+#: /var/www/c2/yfi_cake/controllers/components/actions.php:147
+#: /var/www/c2/yfi_cake/controllers/components/actions.php:182
+#: /var/www/c2/yfi_cake/controllers/components/actions.php:196
+#: /var/www/c2/yfi_cake/controllers/components/actions.php:212
+#: /var/www/c2/yfi_cake/controllers/components/actions.php:218
+#: /var/www/c2/yfi_cake/controllers/components/actions.php:240
+#: /var/www/c2/yfi_cake/controllers/components/actions.php:259
+#: /var/www/c2/yfi_cake/controllers/components/actions.php:275
+#: /var/www/c2/yfi_cake/controllers/components/actions.php:286
+#: /var/www/c2/yfi_cake/controllers/components/actions.php:305
+#: /var/www/c2/yfi_cake/controllers/components/actions.php:323
+#: /var/www/c2/yfi_cake/controllers/components/actions.php:337
+#: /var/www/c2/yfi_cake/controllers/components/actions.php:345
+#: /var/www/c2/yfi_cake/controllers/components/actions.php:391
+#: /var/www/c2/yfi_cake/controllers/components/actions.php:422
+#: /var/www/c2/yfi_cake/controllers/components/actions.php:459
+#: /var/www/c2/yfi_cake/controllers/components/actions.php:473
+#: /var/www/c2/yfi_cake/controllers/components/actions.php:487
+#: /var/www/c2/yfi_cake/controllers/components/actions.php:493
+#: /var/www/c2/yfi_cake/controllers/components/actions.php:546
+#: /var/www/c2/yfi_cake/controllers/components/actions.php:560
+#: /var/www/c2/yfi_cake/controllers/components/actions.php:672
+#: /var/www/c2/yfi_cake/controllers/components/actions.php:684
 msgid "Delete Selected"
 msgstr "Ausgewaehlte loeschen"
 
-#: /www/c2/yfi_cake/controllers/components/actions.php:72
-#: /www/c2/yfi_cake/controllers/components/actions.php:82
+#: /var/www/c2/yfi_cake/controllers/components/actions.php:72
+#: /var/www/c2/yfi_cake/controllers/components/actions.php:82
 msgid "Add Profile"
 msgstr "Profil hinzufuegen"
 
-#: /www/c2/yfi_cake/controllers/components/actions.php:123
-#: /www/c2/yfi_cake/controllers/components/actions.php:134
-#: /www/c2/yfi_cake/controllers/components/actions.php:273
-#: /www/c2/yfi_cake/controllers/components/actions.php:281
-#: /www/c2/yfi_cake/controllers/components/actions.php:387
-#: /www/c2/yfi_cake/controllers/components/actions.php:410
+#: /var/www/c2/yfi_cake/controllers/components/actions.php:123
+#: /var/www/c2/yfi_cake/controllers/components/actions.php:134
+#: /var/www/c2/yfi_cake/controllers/components/actions.php:273
+#: /var/www/c2/yfi_cake/controllers/components/actions.php:281
+#: /var/www/c2/yfi_cake/controllers/components/actions.php:387
+#: /var/www/c2/yfi_cake/controllers/components/actions.php:410
 msgid "Test Radius"
 msgstr "Radius testen"
 
-#: /www/c2/yfi_cake/controllers/components/actions.php:124
-#: /www/c2/yfi_cake/controllers/components/actions.php:136
-#: /www/c2/yfi_cake/controllers/components/actions.php:236
-#: /www/c2/yfi_cake/controllers/components/actions.php:247
+#: /var/www/c2/yfi_cake/controllers/components/actions.php:124
+#: /var/www/c2/yfi_cake/controllers/components/actions.php:136
+#: /var/www/c2/yfi_cake/controllers/components/actions.php:236
+#: /var/www/c2/yfi_cake/controllers/components/actions.php:247
 msgid "CSV Export"
 msgstr "CSV Export"
 
-#: /www/c2/yfi_cake/controllers/components/actions.php:125
-#: /www/c2/yfi_cake/controllers/components/actions.php:139
-#: /www/c2/yfi_cake/controllers/components/actions.php:237
-#: /www/c2/yfi_cake/controllers/components/actions.php:250
-#: /www/c2/yfi_cake/controllers/components/actions.php:575
-#: /www/c2/yfi_cake/controllers/components/actions.php:588
-#: /www/c2/yfi_cake/controllers/components/actions.php:615
-#: /www/c2/yfi_cake/controllers/components/actions.php:623
-#: /www/c2/yfi_cake/controllers/components/actions.php:643
-#: /www/c2/yfi_cake/controllers/components/actions.php:651
+#: /var/www/c2/yfi_cake/controllers/components/actions.php:125
+#: /var/www/c2/yfi_cake/controllers/components/actions.php:139
+#: /var/www/c2/yfi_cake/controllers/components/actions.php:237
+#: /var/www/c2/yfi_cake/controllers/components/actions.php:250
+#: /var/www/c2/yfi_cake/controllers/components/actions.php:575
+#: /var/www/c2/yfi_cake/controllers/components/actions.php:588
+#: /var/www/c2/yfi_cake/controllers/components/actions.php:615
+#: /var/www/c2/yfi_cake/controllers/components/actions.php:623
+#: /var/www/c2/yfi_cake/controllers/components/actions.php:643
+#: /var/www/c2/yfi_cake/controllers/components/actions.php:651
 msgid "Generate PDF"
 msgstr "PDF erstellen"
 
-#: /www/c2/yfi_cake/controllers/components/actions.php:127
-#: /www/c2/yfi_cake/controllers/components/actions.php:144
-#: /www/c2/yfi_cake/controllers/components/actions.php:181
-#: /www/c2/yfi_cake/controllers/components/actions.php:192
-#: /www/c2/yfi_cake/controllers/components/actions.php:239
-#: /www/c2/yfi_cake/controllers/components/actions.php:256
-#: /www/c2/yfi_cake/controllers/components/actions.php:303
-#: /www/c2/yfi_cake/controllers/components/actions.php:317
-#: /www/c2/yfi_cake/controllers/components/actions.php:390
-#: /www/c2/yfi_cake/controllers/components/actions.php:419
-#: /www/c2/yfi_cake/controllers/components/actions.php:458
-#: /www/c2/yfi_cake/controllers/components/actions.php:469
-#: /www/c2/yfi_cake/controllers/components/actions.php:545
-#: /www/c2/yfi_cake/controllers/components/actions.php:557
-#: /www/c2/yfi_cake/controllers/components/actions.php:617
-#: /www/c2/yfi_cake/controllers/components/actions.php:626
-#: /www/c2/yfi_cake/controllers/components/actions.php:645
-#: /www/c2/yfi_cake/controllers/components/actions.php:654
-#: /www/c2/yfi_cake/controllers/components/actions.php:671
-#: /www/c2/yfi_cake/controllers/components/actions.php:681
+#: /var/www/c2/yfi_cake/controllers/components/actions.php:127
+#: /var/www/c2/yfi_cake/controllers/components/actions.php:144
+#: /var/www/c2/yfi_cake/controllers/components/actions.php:181
+#: /var/www/c2/yfi_cake/controllers/components/actions.php:192
+#: /var/www/c2/yfi_cake/controllers/components/actions.php:239
+#: /var/www/c2/yfi_cake/controllers/components/actions.php:256
+#: /var/www/c2/yfi_cake/controllers/components/actions.php:303
+#: /var/www/c2/yfi_cake/controllers/components/actions.php:317
+#: /var/www/c2/yfi_cake/controllers/components/actions.php:390
+#: /var/www/c2/yfi_cake/controllers/components/actions.php:419
+#: /var/www/c2/yfi_cake/controllers/components/actions.php:458
+#: /var/www/c2/yfi_cake/controllers/components/actions.php:469
+#: /var/www/c2/yfi_cake/controllers/components/actions.php:545
+#: /var/www/c2/yfi_cake/controllers/components/actions.php:557
+#: /var/www/c2/yfi_cake/controllers/components/actions.php:617
+#: /var/www/c2/yfi_cake/controllers/components/actions.php:626
+#: /var/www/c2/yfi_cake/controllers/components/actions.php:645
+#: /var/www/c2/yfi_cake/controllers/components/actions.php:654
+#: /var/www/c2/yfi_cake/controllers/components/actions.php:671
+#: /var/www/c2/yfi_cake/controllers/components/actions.php:681
 msgid "Add"
 msgstr "Neu"
 
-#: /www/c2/yfi_cake/controllers/components/actions.php:160
-#: /www/c2/yfi_cake/controllers/components/actions.php:165
-#: /www/c2/yfi_cake/controllers/components/actions.php:438
-#: /www/c2/yfi_cake/controllers/components/actions.php:443
+#: /var/www/c2/yfi_cake/controllers/components/actions.php:160
+#: /var/www/c2/yfi_cake/controllers/components/actions.php:165
+#: /var/www/c2/yfi_cake/controllers/components/actions.php:438
+#: /var/www/c2/yfi_cake/controllers/components/actions.php:443
 msgid "Change Profile"
 msgstr "Profil aendern"
 
-#: /www/c2/yfi_cake/controllers/components/actions.php:304
-#: /www/c2/yfi_cake/controllers/components/actions.php:320
+#: /var/www/c2/yfi_cake/controllers/components/actions.php:304
+#: /var/www/c2/yfi_cake/controllers/components/actions.php:320
 msgid "Add VPN connected NAS"
 msgstr "VPN NAS hinzufuegen"
 
-#: /www/c2/yfi_cake/controllers/components/actions.php:360
-#: /www/c2/yfi_cake/controllers/components/actions.php:367
+#: /var/www/c2/yfi_cake/controllers/components/actions.php:360
+#: /var/www/c2/yfi_cake/controllers/components/actions.php:367
 msgid "Kick User Off"
 msgstr "Benutzer trennen"
 
-#: /www/c2/yfi_cake/controllers/components/actions.php:384
-#: /www/c2/yfi_cake/controllers/components/actions.php:400
+#: /var/www/c2/yfi_cake/controllers/components/actions.php:384
+#: /var/www/c2/yfi_cake/controllers/components/actions.php:400
 msgid "Change Password"
 msgstr "Passwort aendern"
 
-#: /www/c2/yfi_cake/controllers/components/actions.php:385
-#: /www/c2/yfi_cake/controllers/components/actions.php:403
+#: /var/www/c2/yfi_cake/controllers/components/actions.php:385
+#: /var/www/c2/yfi_cake/controllers/components/actions.php:403
 msgid "Activate/Disable Selected"
 msgstr "Ausgewaehlte aktivieren/deaktivieren"
 
-#: /www/c2/yfi_cake/controllers/components/actions.php:386
-#: /www/c2/yfi_cake/controllers/components/actions.php:407
+#: /var/www/c2/yfi_cake/controllers/components/actions.php:386
+#: /var/www/c2/yfi_cake/controllers/components/actions.php:407
 msgid "Send Message"
 msgstr "Nachricht senden"
 
-#: /www/c2/yfi_cake/controllers/components/actions.php:510
-#: /www/c2/yfi_cake/controllers/components/actions.php:520
+#: /var/www/c2/yfi_cake/controllers/components/actions.php:510
+#: /var/www/c2/yfi_cake/controllers/components/actions.php:520
 msgid "Remove Time"
 msgstr "Zeit entfernen"
 
-#: /www/c2/yfi_cake/controllers/components/actions.php:511
-#: /www/c2/yfi_cake/controllers/components/actions.php:523
+#: /var/www/c2/yfi_cake/controllers/components/actions.php:511
+#: /var/www/c2/yfi_cake/controllers/components/actions.php:523
 msgid "Add Time"
 msgstr "Zeit hinzufuegen"
 
-#: /www/c2/yfi_cake/controllers/components/actions.php:512
-#: /www/c2/yfi_cake/controllers/components/actions.php:526
+#: /var/www/c2/yfi_cake/controllers/components/actions.php:512
+#: /var/www/c2/yfi_cake/controllers/components/actions.php:526
 msgid "Remove Data"
 msgstr "Daten entfernen"
 
-#: /www/c2/yfi_cake/controllers/components/actions.php:513
-#: /www/c2/yfi_cake/controllers/components/actions.php:529
+#: /var/www/c2/yfi_cake/controllers/components/actions.php:513
+#: /var/www/c2/yfi_cake/controllers/components/actions.php:529
 msgid "Add Data"
 msgstr "Daten hinzufuegen"
 
-#: /www/c2/yfi_cake/controllers/components/actions.php:547
-#: /www/c2/yfi_cake/controllers/components/actions.php:562
-#: /www/c2/yfi_cake/controllers/components/actions.php:580
-#: /www/c2/yfi_cake/controllers/components/actions.php:599
+#: /var/www/c2/yfi_cake/controllers/components/actions.php:547
+#: /var/www/c2/yfi_cake/controllers/components/actions.php:562
+#: /var/www/c2/yfi_cake/controllers/components/actions.php:580
+#: /var/www/c2/yfi_cake/controllers/components/actions.php:599
 msgid "Help"
 msgstr "Hilfe"
 
-#: /www/c2/yfi_cake/controllers/components/actions.php:574
-#: /www/c2/yfi_cake/controllers/components/actions.php:586
+#: /var/www/c2/yfi_cake/controllers/components/actions.php:574
+#: /var/www/c2/yfi_cake/controllers/components/actions.php:586
 msgid "Add Payment"
 msgstr "Zahlung hinzufuegen"
 
-#: /www/c2/yfi_cake/controllers/components/actions.php:576
-#: /www/c2/yfi_cake/controllers/components/actions.php:589
-#: /www/c2/yfi_cake/controllers/components/actions.php:616
-#: /www/c2/yfi_cake/controllers/components/actions.php:624
-#: /www/c2/yfi_cake/controllers/components/actions.php:644
-#: /www/c2/yfi_cake/controllers/components/actions.php:652
+#: /var/www/c2/yfi_cake/controllers/components/actions.php:576
+#: /var/www/c2/yfi_cake/controllers/components/actions.php:589
+#: /var/www/c2/yfi_cake/controllers/components/actions.php:616
+#: /var/www/c2/yfi_cake/controllers/components/actions.php:624
+#: /var/www/c2/yfi_cake/controllers/components/actions.php:644
+#: /var/www/c2/yfi_cake/controllers/components/actions.php:652
 msgid "Send e-Mail"
 msgstr "E-Mail senden"
 
-#: /www/c2/yfi_cake/controllers/components/actions.php:578
-#: /www/c2/yfi_cake/controllers/components/actions.php:594
+#: /var/www/c2/yfi_cake/controllers/components/actions.php:578
+#: /var/www/c2/yfi_cake/controllers/components/actions.php:594
 msgid "Create Invoices"
 msgstr "Rechnung erstellen"
 
-#: /www/c2/yfi_cake/controllers/components/actions.php:579
-#: /www/c2/yfi_cake/controllers/components/actions.php:597
-#: /www/c2/yfi_cake/controllers/components/actions.php:618
-#: /www/c2/yfi_cake/controllers/components/actions.php:629
+#: /var/www/c2/yfi_cake/controllers/components/actions.php:579
+#: /var/www/c2/yfi_cake/controllers/components/actions.php:597
+#: /var/www/c2/yfi_cake/controllers/components/actions.php:618
+#: /var/www/c2/yfi_cake/controllers/components/actions.php:629
 msgid "Delete Invoices"
 msgstr "Rechnung loeschen"
 
-#: /www/c2/yfi_cake/controllers/components/actions.php:646
-#: /www/c2/yfi_cake/controllers/components/actions.php:657
+#: /var/www/c2/yfi_cake/controllers/components/actions.php:646
+#: /var/www/c2/yfi_cake/controllers/components/actions.php:657
 msgid "Delete Payments"
 msgstr "Zahlung loeschen"
 
-#: /www/c2/yfi_cake/controllers/components/workspace.php:42
-#: /www/c2/yfi_cake/controllers/components/workspace.php:280
-#: /www/c2/yfi_cake/controllers/components/workspace.php:471
+#: /var/www/c2/yfi_cake/controllers/components/workspace.php:42
+#: /var/www/c2/yfi_cake/controllers/components/workspace.php:280
+#: /var/www/c2/yfi_cake/controllers/components/workspace.php:471
 msgid "Home"
 msgstr "Home"
 
-#: /www/c2/yfi_cake/controllers/components/workspace.php:63
-#: /www/c2/yfi_cake/controllers/components/workspace.php:301
+#: /var/www/c2/yfi_cake/controllers/components/workspace.php:63
+#: /var/www/c2/yfi_cake/controllers/components/workspace.php:301
 msgid "Voucher"
 msgstr "Ticket"
 
-#: /www/c2/yfi_cake/controllers/components/workspace.php:73
-#: /www/c2/yfi_cake/controllers/components/workspace.php:311
+#: /var/www/c2/yfi_cake/controllers/components/workspace.php:73
+#: /var/www/c2/yfi_cake/controllers/components/workspace.php:311
 msgid "Batches"
 msgstr "Batches"
 
-#: /www/c2/yfi_cake/controllers/components/workspace.php:83
-#: /www/c2/yfi_cake/controllers/components/workspace.php:321
+#: /var/www/c2/yfi_cake/controllers/components/workspace.php:83
+#: /var/www/c2/yfi_cake/controllers/components/workspace.php:321
 msgid "Batch"
 msgstr "Batch"
 
-#: /www/c2/yfi_cake/controllers/components/workspace.php:93
-#: /www/c2/yfi_cake/controllers/components/workspace.php:331
+#: /var/www/c2/yfi_cake/controllers/components/workspace.php:93
+#: /var/www/c2/yfi_cake/controllers/components/workspace.php:331
 msgid "Users"
 msgstr "Benutzer"
 
-#: /www/c2/yfi_cake/controllers/components/workspace.php:103
-#: /www/c2/yfi_cake/controllers/components/workspace.php:341
+#: /var/www/c2/yfi_cake/controllers/components/workspace.php:103
+#: /var/www/c2/yfi_cake/controllers/components/workspace.php:341
 msgid "User"
 msgstr "Benutzer"
 
-#: /www/c2/yfi_cake/controllers/components/workspace.php:114
+#: /var/www/c2/yfi_cake/controllers/components/workspace.php:114
 msgid "Realms"
 msgstr "Standorte"
 
-#: /www/c2/yfi_cake/controllers/components/workspace.php:123
+#: /var/www/c2/yfi_cake/controllers/components/workspace.php:123
 msgid "Realm"
 msgstr "Standort"
 
-#: /www/c2/yfi_cake/controllers/components/workspace.php:143
-#: /www/c2/yfi_cake/controllers/components/workspace.php:361
+#: /var/www/c2/yfi_cake/controllers/components/workspace.php:143
+#: /var/www/c2/yfi_cake/controllers/components/workspace.php:361
 msgid "Nas Device"
 msgstr "NAS-Endgeraete"
 
-#: /www/c2/yfi_cake/controllers/components/workspace.php:164
+#: /var/www/c2/yfi_cake/controllers/components/workspace.php:164
 msgid "Access Provider"
 msgstr "Dienstanbieter"
 
-#: /www/c2/yfi_cake/controllers/components/workspace.php:185
-#: /www/c2/yfi_cake/controllers/components/workspace.php:381
+#: /var/www/c2/yfi_cake/controllers/components/workspace.php:185
+#: /var/www/c2/yfi_cake/controllers/components/workspace.php:381
 msgid "Template"
 msgstr "Vorlage"
 
-#: /www/c2/yfi_cake/controllers/components/workspace.php:205
-#: /www/c2/yfi_cake/controllers/components/workspace.php:401
-#: /www/c2/yfi_cake/vendors/fpdf/label.php:280
+#: /var/www/c2/yfi_cake/controllers/components/workspace.php:205
+#: /var/www/c2/yfi_cake/controllers/components/workspace.php:401
+#: /var/www/c2/yfi_cake/vendors/fpdf/label.php:280
 msgid "Profile"
 msgstr "Profil"
 
-#: /www/c2/yfi_cake/controllers/components/workspace.php:215
-#: /www/c2/yfi_cake/controllers/components/workspace.php:410
+#: /var/www/c2/yfi_cake/controllers/components/workspace.php:215
+#: /var/www/c2/yfi_cake/controllers/components/workspace.php:410
 msgid "Activity"
 msgstr "Aktivitaet"
 
-#: /www/c2/yfi_cake/controllers/components/workspace.php:225
-#: /www/c2/yfi_cake/controllers/components/workspace.php:423
+#: /var/www/c2/yfi_cake/controllers/components/workspace.php:225
+#: /var/www/c2/yfi_cake/controllers/components/workspace.php:423
 msgid "Accounts"
 msgstr "Rechnungen"
 
-#: /www/c2/yfi_cake/controllers/components/workspace.php:235
-#: /www/c2/yfi_cake/controllers/components/workspace.php:433
+#: /var/www/c2/yfi_cake/controllers/components/workspace.php:235
+#: /var/www/c2/yfi_cake/controllers/components/workspace.php:433
 msgid "Account"
 msgstr "Rechnung"
 
-#: /www/c2/yfi_cake/controllers/components/workspace.php:255
-#: /www/c2/yfi_cake/controllers/components/workspace.php:453
+#: /var/www/c2/yfi_cake/controllers/components/workspace.php:255
+#: /var/www/c2/yfi_cake/controllers/components/workspace.php:453
 msgid "Plan"
 msgstr "Plan"
 
-#: /www/c2/yfi_cake/controllers/components/workspace.php:265
+#: /var/www/c2/yfi_cake/controllers/components/workspace.php:265
 msgid "Dynamic Firewall"
 msgstr "Dynamische Firewall"
 
-#: /www/c2/yfi_cake/controllers/vouchers_controller.php:1016
-#: /www/c2/yfi_cake/controllers/batches_controller.php:357
+#: /var/www/c2/yfi_cake/controllers/vouchers_controller.php:1016
+#: /var/www/c2/yfi_cake/controllers/batches_controller.php:357
 msgid "days from first log-in"
 msgstr "Tage ab log-in"
 
-#: /www/c2/yfi_cake/controllers/vouchers_controller.php:1018
-#: /www/c2/yfi_cake/controllers/batches_controller.php:359
+#: /var/www/c2/yfi_cake/controllers/vouchers_controller.php:1018
+#: /var/www/c2/yfi_cake/controllers/batches_controller.php:359
 msgid "day from first log-in"
 msgstr "Tag ab log-in"
 
-#: /www/c2/yfi_cake/views/vouchers/pdf.ctp:25
-#: /www/c2/yfi_cake/views/batches/pdf.ctp:32
-#: /www/c2/yfi_cake/vendors/fpdf/label.php:263
+#: /var/www/c2/yfi_cake/views/vouchers/pdf.ctp:25
+#: /var/www/c2/yfi_cake/views/batches/pdf.ctp:32
+#: /var/www/c2/yfi_cake/vendors/fpdf/label.php:263
 msgid "Internet Access Voucher"
 msgstr "Internet Ticket"
 
-#: /www/c2/yfi_cake/vendors/fpdf/generic.php:45
-#: /www/c2/yfi_cake/vendors/fpdf/invoice.php:41
-#: /www/c2/yfi_cake/vendors/fpdf/receipt.php:41
+#: /var/www/c2/yfi_cake/vendors/fpdf/generic.php:45
+#: /var/www/c2/yfi_cake/vendors/fpdf/invoice.php:41
+#: /var/www/c2/yfi_cake/vendors/fpdf/receipt.php:41
 msgid "Page "
 msgstr "Seite "
 
-#: /www/c2/yfi_cake/vendors/fpdf/generic.php:59
+#: /var/www/c2/yfi_cake/vendors/fpdf/generic.php:59
 msgid "Profile attributes"
 msgstr "Profileigenschaften"
 
-#: /www/c2/yfi_cake/vendors/fpdf/generic.php:89
+#: /var/www/c2/yfi_cake/vendors/fpdf/generic.php:89
 msgid "Profile: "
 msgstr "Profile: "
 
-#: /www/c2/yfi_cake/vendors/fpdf/generic.php:126
-#: /www/c2/yfi_cake/vendors/fpdf/invoice.php:96
-#: /www/c2/yfi_cake/vendors/fpdf/invoice.php:116
-#: /www/c2/yfi_cake/vendors/fpdf/receipt.php:124
+#: /var/www/c2/yfi_cake/vendors/fpdf/generic.php:126
+#: /var/www/c2/yfi_cake/vendors/fpdf/invoice.php:96
+#: /var/www/c2/yfi_cake/vendors/fpdf/invoice.php:116
+#: /var/www/c2/yfi_cake/vendors/fpdf/receipt.php:124
 msgid "Address"
 msgstr "Addresse"
 
-#: /www/c2/yfi_cake/vendors/fpdf/generic.php:132
-#: /www/c2/yfi_cake/vendors/fpdf/invoice.php:122
+#: /var/www/c2/yfi_cake/vendors/fpdf/generic.php:132
+#: /var/www/c2/yfi_cake/vendors/fpdf/invoice.php:122
 msgid "Contact Detail"
 msgstr "Kontakt"
 
-#: /www/c2/yfi_cake/vendors/fpdf/generic.php:151
-#: /www/c2/yfi_cake/vendors/fpdf/invoice.php:141
+#: /var/www/c2/yfi_cake/vendors/fpdf/generic.php:151
+#: /var/www/c2/yfi_cake/vendors/fpdf/invoice.php:141
 msgid "(phone)"
 msgstr "(Telefon)"
 
-#: /www/c2/yfi_cake/vendors/fpdf/generic.php:157
-#: /www/c2/yfi_cake/vendors/fpdf/invoice.php:147
+#: /var/www/c2/yfi_cake/vendors/fpdf/generic.php:157
+#: /var/www/c2/yfi_cake/vendors/fpdf/invoice.php:147
 msgid "(cell)"
 msgstr "(Mobil)"
 
-#: /www/c2/yfi_cake/vendors/fpdf/generic.php:163
-#: /www/c2/yfi_cake/vendors/fpdf/invoice.php:153
+#: /var/www/c2/yfi_cake/vendors/fpdf/generic.php:163
+#: /var/www/c2/yfi_cake/vendors/fpdf/invoice.php:153
 msgid "(fax)"
 msgstr "(Fax)"
 
-#: /www/c2/yfi_cake/vendors/fpdf/generic.php:223
-#: /www/c2/yfi_cake/vendors/fpdf/label.php:278
-#: /www/c2/yfi_cake/vendors/fpdf/invoice.php:91
-#: /www/c2/yfi_cake/vendors/fpdf/receipt.php:119
+#: /var/www/c2/yfi_cake/vendors/fpdf/generic.php:223
+#: /var/www/c2/yfi_cake/vendors/fpdf/label.php:278
+#: /var/www/c2/yfi_cake/vendors/fpdf/invoice.php:91
+#: /var/www/c2/yfi_cake/vendors/fpdf/receipt.php:119
 msgid "Username"
 msgstr "Benutzername"
 
-#: /www/c2/yfi_cake/vendors/fpdf/generic.php:231
-#: /www/c2/yfi_cake/vendors/fpdf/label.php:279
+#: /var/www/c2/yfi_cake/vendors/fpdf/generic.php:231
+#: /var/www/c2/yfi_cake/vendors/fpdf/label.php:279
 msgid "Password"
 msgstr "Passwort"
 
-#: /www/c2/yfi_cake/vendors/fpdf/generic.php:239
-#: /www/c2/yfi_cake/vendors/fpdf/label.php:281
+#: /var/www/c2/yfi_cake/vendors/fpdf/generic.php:239
+#: /var/www/c2/yfi_cake/vendors/fpdf/label.php:281
 msgid "Valid for"
 msgstr "Verwendung"
 
-#: /www/c2/yfi_cake/vendors/fpdf/generic.php:247
-#: /www/c2/yfi_cake/vendors/fpdf/label.php:282
+#: /var/www/c2/yfi_cake/vendors/fpdf/generic.php:247
+#: /var/www/c2/yfi_cake/vendors/fpdf/label.php:282
 msgid "Expiry date"
 msgstr "Ablaufdatum"
 
-#: /www/c2/yfi_cake/vendors/fpdf/invoice.php:53
+#: /var/www/c2/yfi_cake/vendors/fpdf/invoice.php:53
 msgid "Invoice Nr : "
 msgstr "Rechnungs Nr.:"
 
-#: /www/c2/yfi_cake/vendors/fpdf/invoice.php:85
-#: /www/c2/yfi_cake/vendors/fpdf/receipt.php:113
+#: /var/www/c2/yfi_cake/vendors/fpdf/invoice.php:85
+#: /var/www/c2/yfi_cake/vendors/fpdf/receipt.php:113
 msgid "Customer Info"
 msgstr "Kunde"
 
-#: /www/c2/yfi_cake/vendors/fpdf/invoice.php:92
-#: /www/c2/yfi_cake/vendors/fpdf/receipt.php:120
+#: /var/www/c2/yfi_cake/vendors/fpdf/invoice.php:92
+#: /var/www/c2/yfi_cake/vendors/fpdf/receipt.php:120
 msgid "Name"
 msgstr "Name"
 
-#: /www/c2/yfi_cake/vendors/fpdf/invoice.php:93
-#: /www/c2/yfi_cake/vendors/fpdf/receipt.php:121
+#: /var/www/c2/yfi_cake/vendors/fpdf/invoice.php:93
+#: /var/www/c2/yfi_cake/vendors/fpdf/receipt.php:121
 msgid "Surname"
 msgstr "Vorname"
 
-#: /www/c2/yfi_cake/vendors/fpdf/invoice.php:94
-#: /www/c2/yfi_cake/vendors/fpdf/receipt.php:122
+#: /var/www/c2/yfi_cake/vendors/fpdf/invoice.php:94
+#: /var/www/c2/yfi_cake/vendors/fpdf/receipt.php:122
 msgid "Phone"
 msgstr "Telefon"
 
-#: /www/c2/yfi_cake/vendors/fpdf/invoice.php:95
-#: /www/c2/yfi_cake/vendors/fpdf/receipt.php:123
+#: /var/www/c2/yfi_cake/vendors/fpdf/invoice.php:95
+#: /var/www/c2/yfi_cake/vendors/fpdf/receipt.php:123
 msgid "e-Mail"
 msgstr "E-Mail"
 
-#: /www/c2/yfi_cake/vendors/fpdf/invoice.php:177
-#: /www/c2/yfi_cake/vendors/fpdf/receipt.php:232
+#: /var/www/c2/yfi_cake/vendors/fpdf/invoice.php:177
+#: /var/www/c2/yfi_cake/vendors/fpdf/receipt.php:232
 msgid "Start date"
 msgstr "Startdatum"
 
-#: /www/c2/yfi_cake/vendors/fpdf/invoice.php:178
-#: /www/c2/yfi_cake/vendors/fpdf/receipt.php:233
+#: /var/www/c2/yfi_cake/vendors/fpdf/invoice.php:178
+#: /var/www/c2/yfi_cake/vendors/fpdf/receipt.php:233
 msgid "End date"
 msgstr "Enddatum"
 
-#: /www/c2/yfi_cake/vendors/fpdf/invoice.php:179
-#: /www/c2/yfi_cake/vendors/fpdf/receipt.php:234
+#: /var/www/c2/yfi_cake/vendors/fpdf/invoice.php:179
+#: /var/www/c2/yfi_cake/vendors/fpdf/receipt.php:234
 msgid "Billing Plan"
 msgstr "Tarif"
 
-#: /www/c2/yfi_cake/vendors/fpdf/invoice.php:222
+#: /var/www/c2/yfi_cake/vendors/fpdf/invoice.php:222
 msgid "Usage Sumary"
 msgstr "Verbrauch"
 
-#: /www/c2/yfi_cake/vendors/fpdf/invoice.php:226
-#: /www/c2/yfi_cake/vendors/fpdf/invoice.php:265
-#: /www/c2/yfi_cake/vendors/fpdf/invoice.php:348
+#: /var/www/c2/yfi_cake/vendors/fpdf/invoice.php:226
+#: /var/www/c2/yfi_cake/vendors/fpdf/invoice.php:265
+#: /var/www/c2/yfi_cake/vendors/fpdf/invoice.php:348
 msgid "Item"
 msgstr "Artikel"
 
-#: /www/c2/yfi_cake/vendors/fpdf/invoice.php:227
-#: /www/c2/yfi_cake/vendors/fpdf/invoice.php:266
-#: /www/c2/yfi_cake/vendors/fpdf/invoice.php:349
+#: /var/www/c2/yfi_cake/vendors/fpdf/invoice.php:227
+#: /var/www/c2/yfi_cake/vendors/fpdf/invoice.php:266
+#: /var/www/c2/yfi_cake/vendors/fpdf/invoice.php:349
 msgid "Value"
 msgstr "Betrag"
 
-#: /www/c2/yfi_cake/vendors/fpdf/invoice.php:260
+#: /var/www/c2/yfi_cake/vendors/fpdf/invoice.php:260
 msgid "Stats"
 msgstr "Statistik"
 
-#: /www/c2/yfi_cake/vendors/fpdf/invoice.php:299
+#: /var/www/c2/yfi_cake/vendors/fpdf/invoice.php:299
 msgid "Extra Services"
 msgstr "Zusatzdienste"
 
-#: /www/c2/yfi_cake/vendors/fpdf/invoice.php:304
+#: /var/www/c2/yfi_cake/vendors/fpdf/invoice.php:304
 msgid "Title"
 msgstr "Titel"
 
-#: /www/c2/yfi_cake/vendors/fpdf/invoice.php:305
+#: /var/www/c2/yfi_cake/vendors/fpdf/invoice.php:305
 msgid "Description"
 msgstr "Beschreibung"
 
-#: /www/c2/yfi_cake/vendors/fpdf/invoice.php:306
-#: /www/c2/yfi_cake/vendors/fpdf/invoice.php:351
-#: /www/c2/yfi_cake/vendors/fpdf/receipt.php:194
+#: /var/www/c2/yfi_cake/vendors/fpdf/invoice.php:306
+#: /var/www/c2/yfi_cake/vendors/fpdf/invoice.php:351
+#: /var/www/c2/yfi_cake/vendors/fpdf/receipt.php:194
 msgid "Amount"
 msgstr "Betrag"
 
-#: /www/c2/yfi_cake/vendors/fpdf/invoice.php:343
+#: /var/www/c2/yfi_cake/vendors/fpdf/invoice.php:343
 msgid "Cost Breakdown"
 msgstr "Kostenaufstellung"
 
-#: /www/c2/yfi_cake/vendors/fpdf/invoice.php:350
+#: /var/www/c2/yfi_cake/vendors/fpdf/invoice.php:350
 msgid "Usage"
 msgstr "Verbrauch"
 
-#: /www/c2/yfi_cake/vendors/fpdf/receipt.php:53
+#: /var/www/c2/yfi_cake/vendors/fpdf/receipt.php:53
 msgid "Receipt Nr : "
 msgstr "Beleg Nr.: "
 
-#: /www/c2/yfi_cake/vendors/fpdf/receipt.php:81
+#: /var/www/c2/yfi_cake/vendors/fpdf/receipt.php:81
 msgid "Amount : "
 msgstr "Betrag : "
 
-#: /www/c2/yfi_cake/vendors/fpdf/receipt.php:193
+#: /var/www/c2/yfi_cake/vendors/fpdf/receipt.php:193
 msgid "Received"
 msgstr "Erhalten"
 
-#: /www/c2/yfi_cake/controllers/components/pdf.php:15
-#: /www/c2/yfi_cake/controllers/components/pdf.php:138
+#: /var/www/c2/yfi_cake/controllers/components/pdf.php:15
+#: /var/www/c2/yfi_cake/controllers/components/pdf.php:138
 msgid "Invoice"
 msgstr "Rechnung"
 
-#: /www/c2/yfi_cake/controllers/components/pdf.php:53
-#: /www/c2/yfi_cake/controllers/components/pdf.php:176
+#: /var/www/c2/yfi_cake/controllers/components/pdf.php:53
+#: /var/www/c2/yfi_cake/controllers/components/pdf.php:176
 msgid "Standard Data"
 msgstr "Normal Daten"
 
-#: /www/c2/yfi_cake/controllers/components/pdf.php:54
-#: /www/c2/yfi_cake/controllers/components/pdf.php:177
+#: /var/www/c2/yfi_cake/controllers/components/pdf.php:54
+#: /var/www/c2/yfi_cake/controllers/components/pdf.php:177
 msgid "Free Data"
 msgstr "Gratis Daten"
 
-#: /www/c2/yfi_cake/controllers/components/pdf.php:55
-#: /www/c2/yfi_cake/controllers/components/pdf.php:178
+#: /var/www/c2/yfi_cake/controllers/components/pdf.php:55
+#: /var/www/c2/yfi_cake/controllers/components/pdf.php:178
 msgid "Extra Data"
 msgstr "Extra Daten"
 
-#: /www/c2/yfi_cake/controllers/components/pdf.php:56
-#: /www/c2/yfi_cake/controllers/components/pdf.php:179
+#: /var/www/c2/yfi_cake/controllers/components/pdf.php:56
+#: /var/www/c2/yfi_cake/controllers/components/pdf.php:179
 msgid "Standard Time"
 msgstr "Normale Zeit"
 
-#: /www/c2/yfi_cake/controllers/components/pdf.php:57
-#: /www/c2/yfi_cake/controllers/components/pdf.php:180
+#: /var/www/c2/yfi_cake/controllers/components/pdf.php:57
+#: /var/www/c2/yfi_cake/controllers/components/pdf.php:180
 msgid "Free Time"
 msgstr "Gratis Zeit"
 
-#: /www/c2/yfi_cake/controllers/components/pdf.php:58
-#: /www/c2/yfi_cake/controllers/components/pdf.php:181
+#: /var/www/c2/yfi_cake/controllers/components/pdf.php:58
+#: /var/www/c2/yfi_cake/controllers/components/pdf.php:181
 msgid "Extra Time"
 msgstr "Extra Zeit"
 
-#: /www/c2/yfi_cake/controllers/components/pdf.php:70
-#: /www/c2/yfi_cake/controllers/components/pdf.php:192
+#: /var/www/c2/yfi_cake/controllers/components/pdf.php:70
+#: /var/www/c2/yfi_cake/controllers/components/pdf.php:192
 msgid "Total Invoiced"
 msgstr "Summe abgerechnet"
 
-#: /www/c2/yfi_cake/controllers/components/pdf.php:71
-#: /www/c2/yfi_cake/controllers/components/pdf.php:193
+#: /var/www/c2/yfi_cake/controllers/components/pdf.php:71
+#: /var/www/c2/yfi_cake/controllers/components/pdf.php:193
 msgid "Total Paid"
 msgstr "Summe bezahlt"
 
-#: /www/c2/yfi_cake/controllers/components/pdf.php:72
-#: /www/c2/yfi_cake/controllers/components/pdf.php:194
+#: /var/www/c2/yfi_cake/controllers/components/pdf.php:72
+#: /var/www/c2/yfi_cake/controllers/components/pdf.php:194
 msgid "Outstanding"
 msgstr "offen"
 
-#: /www/c2/yfi_cake/controllers/components/pdf.php:106
-#: /www/c2/yfi_cake/controllers/components/pdf.php:228
+#: /var/www/c2/yfi_cake/controllers/components/pdf.php:106
+#: /var/www/c2/yfi_cake/controllers/components/pdf.php:228
 msgid "Subscription"
 msgstr "Beschreibung"
 
-#: /www/c2/yfi_cake/controllers/components/pdf.php:107
-#: /www/c2/yfi_cake/controllers/components/pdf.php:229
+#: /var/www/c2/yfi_cake/controllers/components/pdf.php:107
+#: /var/www/c2/yfi_cake/controllers/components/pdf.php:229
 msgid "Normal Cost/Byte"
 msgstr "Normal Kosten/Byte"
 
-#: /www/c2/yfi_cake/controllers/components/pdf.php:108
-#: /www/c2/yfi_cake/controllers/components/pdf.php:230
+#: /var/www/c2/yfi_cake/controllers/components/pdf.php:108
+#: /var/www/c2/yfi_cake/controllers/components/pdf.php:230
 msgid "Extra Cost/Byte"
 msgstr "Extra Kosten/Byte"
 
-#: /www/c2/yfi_cake/controllers/components/pdf.php:109
-#: /www/c2/yfi_cake/controllers/components/pdf.php:231
+#: /var/www/c2/yfi_cake/controllers/components/pdf.php:109
+#: /var/www/c2/yfi_cake/controllers/components/pdf.php:231
 msgid "Normal Cost/Second"
 msgstr "Normal Kosten/Sekunde"
 
-#: /www/c2/yfi_cake/controllers/components/pdf.php:110
-#: /www/c2/yfi_cake/controllers/components/pdf.php:232
+#: /var/www/c2/yfi_cake/controllers/components/pdf.php:110
+#: /var/www/c2/yfi_cake/controllers/components/pdf.php:232
 msgid "Extra Cost/Second"
 msgstr "Extra Kosten/Sekunde"
 
-#: /www/c2/yfi_cake/controllers/components/pdf.php:111
-#: /www/c2/yfi_cake/controllers/components/pdf.php:233
+#: /var/www/c2/yfi_cake/controllers/components/pdf.php:111
+#: /var/www/c2/yfi_cake/controllers/components/pdf.php:233
 msgid "Total Usage Discount"
 msgstr "Abzug"
 
-#: /www/c2/yfi_cake/controllers/components/pdf.php:113
-#: /www/c2/yfi_cake/controllers/components/pdf.php:235
+#: /var/www/c2/yfi_cake/controllers/components/pdf.php:113
+#: /var/www/c2/yfi_cake/controllers/components/pdf.php:235
 msgid "Tax"
 msgstr "Belastung"
 
-#: /www/c2/yfi_cake/controllers/components/pdf.php:115
+#: /var/www/c2/yfi_cake/controllers/components/pdf.php:115
 msgid "Prevoius Outstanding"
 msgstr "bisher offen"
 
-#: /www/c2/yfi_cake/controllers/components/pdf.php:237
+#: /var/www/c2/yfi_cake/controllers/components/pdf.php:237
 msgid "Previous Outstanding"
 msgstr "bisher offen"
 
-#: /www/c2/yfi_cake/controllers/components/pdf.php:261
+#: /var/www/c2/yfi_cake/controllers/components/pdf.php:261
 msgid "Receipt"
 msgstr "Beleg"
 

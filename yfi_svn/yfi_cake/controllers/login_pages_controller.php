@@ -42,7 +42,7 @@ class LoginPagesController extends AppController {
         $r = $this->Na->find('first',array('conditions' => array('Na.shortname' => "$nas_name")));
         Configure::load('yfi');
         $directory  = Configure::read('realm.icon_directory');
-        //Filter out the /www
+        //Filter out the /var/www
         $directory = preg_replace("/\/var\/www/","", $directory);
         $directory = preg_replace("/\/usr\/share\/nginx\/www/","", $directory);
 

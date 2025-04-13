@@ -2,7 +2,7 @@
 
 use strict;
 use POSIX;
-use lib "/usr/local/etc/raddb/rlm_perl_modules";
+use lib "/etc/freeradius2/rlm_perl_modules";
 use SQLCounter;
 use Data::Dumper;
 use XML::Simple;
@@ -65,7 +65,7 @@ my $rv = sqlcounter_check('00001@ri',{'ChilliSpot-Max-Total-Octets' => '10737418
 
 print (Dumper($rv));
 
-my $config_file = '/usr/local/etc/raddb/rlm_perl_modules/conf/settings.conf';
+my $config_file = '/etc/freeradius2/rlm_perl_modules/conf/settings.conf';
 my $xml     = new XML::Simple;
 my $data    = $xml->XMLin($config_file);
 

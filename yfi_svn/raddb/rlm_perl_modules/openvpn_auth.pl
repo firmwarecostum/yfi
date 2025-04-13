@@ -3,7 +3,7 @@
 use strict;
 
 use Data::Dumper;
-use lib "/usr/local/etc/raddb/rlm_perl_modules";
+use lib "/etc/freeradius2/rlm_perl_modules";
 use SQLConnector;
 
 #Taken from the sample script

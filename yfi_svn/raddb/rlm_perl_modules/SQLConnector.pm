@@ -10,7 +10,7 @@ sub new {
 
     print "   SQLConnector::new called\n";
     my $type = shift;            # The package/type name
-    my $self = {'config_file' => '/usr/local/etc/raddb/rlm_perl_modules/conf/settings.conf'};               # Reference to empty hash
+    my $self = {'config_file' => '/etc/freeradius2/rlm_perl_modules/conf/settings.conf'};               # Reference to empty hash
    
     my $db_server               = '127.0.0.1';
     my $db_name                 = 'yfi';

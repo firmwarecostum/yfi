@@ -11,8 +11,8 @@ use Attributes;
 #===============================================================
 #===== CONFIGURATION DATA ======================================
 #===============================================================
-my $config_file = '/usr/local/etc/raddb/rlm_perl_modules/conf/settings.conf';
-my $radclient = '/usr/local/bin/radclient';
+my $config_file = '/etc/freeradius2/rlm_perl_modules/conf/settings.conf';
+my $radclient = '/usr/bin/radclient';
 #===============================================================
 #===== END of Configuration Data ===============================
 #===============================================================

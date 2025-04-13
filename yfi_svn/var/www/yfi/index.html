@@ -1,0 +1,108 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN"
+  "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+  <head> 
+    <title>YFi Hotspot Manager</title>
+    <link href="img/logo.ico" type="image/x-icon" rel="icon"/><link href="img/logo.ico" type="image/x-icon" rel="shortcut icon"/>
+    <style type="text/css">
+      @import "js/dojo/dojo/resources/dojo.css";
+      @import "js/dojo/dijit/themes/tundra/tundra.css";
+      @import "js/dojo/dojox/grid/resources/Grid.css";
+      @import "js/dojo/dojox/grid/resources/tundraGrid.css";
+      @import "css/Toaster.css";
+
+      @import "css/generic.css";
+      @import "js/dojo/custom/PhotoWidget/css/PhotoWidget.css";
+
+    .rc_split { margin:20px auto; width:400px;  margin-top:100px;}
+    .rc_split h3 { padding:4px; text-align:center; margin:0; color:#fff; }
+    .rc_split h3, .rc_split h3 .sb-inner { background:#222 url('img/round_corners/grad2.png') repeat-x; }
+    .rc_split .content {   color:#444; }
+    .rc_split .content, .rc_split .content .sb-inner {  height:200px; background:#ddd url('img/round_corners/grad3.png') repeat-x; }
+
+    #divLoadingMessageSplashWrap { padding:30px 10px; }
+
+    @import "js/dojo/custom/PhotoWidget/css/PhotoWidget.css";
+
+    </style>
+    <script type="text/javascript" src="js/round_corners/shadedborder.js"></script>
+    <script type="text/javascript" > 
+
+        //--------------------------------------------------------
+        djConfig = {
+            afterOnLoad: true,
+            addOnLoad: function(){
+                var result;
+                console.log("Dojo loaded!");
+                //Check if the page was called with a language preference
+                if(document.location.search != ''){
+                    result = document.location.search.replace(/\?lang=/, "");
+                }
+                dojo.require("components.Yfi");
+                dojo.addOnLoad(function(){
+                  
+                    dojo.require("components.LoginLight");
+                    dojo.addOnLoad(function(){
+                        dojo._destroyElement(dojo.byId('divLoadingMessageSplash'));
+                        console.log('Loading completed')
+                        components.LoginLight.isLoggedin(dojo.byId('divLoadingMessageSplashWrap'),result);               //Checked if we need to log in
+                    });
+                    
+                });
+            }
+        };
+        //-------------------------------------------------------
+
+
+        //---------------------------------------------------------
+        function loadDojo(){
+           // summary: creates a script node for dojo and attaches it to the DOM.
+            var node = document.createElement("script");
+            node.type = "text/javascript";
+            node.src = "js/dojo/dojo/dojo.js";
+            document.getElementsByTagName("head")[0].appendChild(node);
+        }
+        //---------------------------------------------------------
+
+        //--------------------------------------------------------
+        //Register loadDojo function with page onload event.
+        if(window.addEventListener){
+            window.addEventListener("load", loadDojo, false);
+        }else{
+            window.attachEvent("onload", loadDojo);
+        }
+        //--------------------------------------------------------
+
+    </script>
+  </head>
+  <body class="tundra" bgcolor="#FFFFFF">
+
+    <div id='divLoadingMessage'>
+        <div class='rc_split'>
+            <h3 id='divLoadingMessageHead'><span>YFi Hotspot Manager</span></h3>
+            <div class="content" id='divLoadingMessageContent'>
+                <div id='divLoadingMessageSplashWrap'>
+                    <div id='divLoadingMessageSplash'>
+                        <img src='img/logo.gif' />
+                        <img src='img/loading/busy.gif' />
+                        <p style='margin-left: 20px;'>
+                             <b>Loading ....</b> <br><b>Please Wait</b>
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+   <script language="javascript" type="text/javascript">
+
+        var splitBorderTop    = RUZEE.ShadedBorder.create({ corner:10, edges:"tlr", shadow: 20 });
+        var splitBorderBottom = RUZEE.ShadedBorder.create({ corner:10, edges:"blr", shadow: 20 });
+        splitBorderBottom.render('divLoadingMessageContent');
+        splitBorderTop.render('divLoadingMessageHead');
+ 
+  </script>
+
+  </body>
+</html>

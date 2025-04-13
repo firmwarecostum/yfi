@@ -1,0 +1,22 @@
+/* PhotoWidget.css */
+.photoWidget {
+	border: 1px solid black;
+	width: 400px;
+	padding: 10px;
+    background-color:#b0c4de;
+    margin-top: 10px;
+	overflow: hidden;
+
+}
+
+.photoWidget h3 {
+	font-size: 1.5em;
+	font-style: italic;
+	text-align: center;
+	margin: 0px;
+}
+
+.photoWidgetPicture {
+	
+}
+

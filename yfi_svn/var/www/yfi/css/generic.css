@@ -1,0 +1,876 @@
+html, body {
+    height: 100%; 
+    width: 100%;
+    overflow: hidden;   /* erase window level scrollbars */
+    padding: 0 0 0 0;
+    margin: 0 0 0 0;
+    font: 10pt Arial,Myriad,Tahoma,Verdana,sans-serif;
+}
+
+#componentLoginLightFeedback {
+ font-weight: bold;
+ color:red;
+ height: 2em;
+}
+
+
+#componentsMainBanner  {
+
+color: green;
+
+}
+
+
+.detailItem {
+
+    font-weight: bold;
+    color:blue;
+    height: 5em;
+    width:20em;
+}
+
+
+.divTabForm {
+    width:30em;
+    height:auto; 
+    background-color: #beedd5;
+    border: 1px solid #000000;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+.divInfoForm {
+    width:100%;
+    height:auto; 
+    background-color: #ffccff;
+    border: 1px solid #000000;
+    margin-bottom: 10px;
+}
+
+.divGridAction {
+
+    height: 40px;
+    padding: 2px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.divGrid {
+
+    border: 1px solid #000000;
+    height: 99%;
+    margin: 0px;
+    padding: 0px;
+}
+
+.divGridResults {
+
+    height: 30px;
+    padding: 5px;
+    color: red;
+}
+
+
+.divActions {
+    height: 40px;
+    float: right;
+    border: 1px solid #000000;
+    background-color: #6bf96f;
+}
+
+.divFilter {
+    height: 40px;
+    float: left;
+    /*
+    border: 1px solid #000000;
+    background-color: #6bf96f;
+    */
+}
+
+.divUpload {
+    border: 1px solid #000000;
+    background-color: #6bf96f;
+    height: 50px;
+    padding: 5px;
+}
+
+.divLogo {
+
+    margin-top: 10px;
+    padding: 5px;
+    background-color: #dcd8d8;
+    border: 1px solid #0f0ae5;
+    height: 450px;
+    width: 450px;
+    text-align:center;
+}
+
+.divProgress {
+    border: 1px solid #000000;
+    background-color: #6bf96f;
+    height: 50px;
+    padding: 5px;
+}
+
+
+.divBannerUser {
+    height: 40px;
+    width: 17em;
+    float: right;
+    border: 1px solid #000000;
+    background-color: #dcdcdc;
+    margin: 5px;
+    padding: 2px;
+}
+
+.spanRestart {
+    border: 1px solid #000000;
+    background-color: yellow;
+    margin: 5px;
+    padding: 2px;
+    font-weight: bold;
+}
+
+
+/*----Fancy Icons for Action Area in Tab space --*/
+.FancyIcon {
+    background-repeat:no-repeat;
+    float: left;
+    cursor: pointer;
+    border: 0px;
+    padding: 0px;
+    margin: 0px;
+}
+
+
+.FancyIcon .add_time {
+    background-image:url('../img/actions/add_time.png');
+    height:33px;
+    width:33px;
+}
+
+.FancyIcon .add_time:hover {
+    background-image:url('../img/actions/add_time_over.png');
+    height:49px;
+    width:49px;
+}
+
+.FancyIcon .del_time {
+    background-image:url('../img/actions/del_time.png');
+    height:32px;
+    width:32px;
+}
+
+.FancyIcon .del_time:hover {
+    background-image:url('../img/actions/del_time_over.png');
+    height:48px;
+    width:48px;
+}
+
+.FancyIcon .add_data {
+    background-image:url('../img/actions/add_data.png');
+    height:33px;
+    width:33px;
+}
+
+.FancyIcon .add_data:hover {
+    background-image:url('../img/actions/add_data_over.png');
+    height:49px;
+    width:49px;
+}
+
+
+.FancyIcon .del_data {
+    background-image:url('../img/actions/del_data.png');
+    height:32px;
+    width:32px;
+}
+
+.FancyIcon .del_data:hover {
+    background-image:url('../img/actions/del_data_over.png');
+    height:48px;
+    width:48px;
+}
+
+
+
+.FancyIcon .delete {
+    background-image:url('../img/actions/delete.png');
+    height:33px;
+    width:33px;
+}
+
+.FancyIcon .delete:hover {
+    background-image:url('../img/actions/delete_over.png');
+    height:49px;
+    width:49px;
+}
+
+.FancyIcon .add {
+    background-image:url('../img/actions/add.png');
+    height:32px;
+    width:32px;
+}
+
+.FancyIcon .add:hover {
+    background-image:url('../img/actions/add_over.png');
+    height:48px;
+    width:48px;
+}
+
+.FancyIcon .edit {
+    background-image:url('../img/actions/edit.png');
+    height:33px;
+    width:33px;
+}
+
+.FancyIcon .edit:hover {
+    background-image:url('../img/actions/edit_over.png');
+    height:49px;
+    width:49px;
+}
+
+.FancyIcon .view {
+    background-image:url('../img/actions/view.png');
+    height:32px;
+    width:32px;
+}
+
+.FancyIcon .view:hover {
+    background-image:url('../img/actions/view_over.png');
+    height:48px;
+    width:48px;
+}
+
+.FancyIcon .upload {
+    background-image:url('../img/actions/upload.png');
+    height:33px;
+    width:33px;
+}
+
+.FancyIcon .upload:hover {
+    background-image:url('../img/actions/upload_over.png');
+    height:49px;
+    width:49px;
+}
+
+.FancyIcon .password {
+    background-image:url('../img/actions/password.png');
+    height:33px;
+    width:33px;
+}
+
+.FancyIcon .password:hover {
+    background-image:url('../img/actions/password_over.png');
+    height:49px;
+    width:49px;
+}
+
+
+.FancyIcon .default {
+    background-image:url('../img/actions/default.png');
+    height:33px;
+    width:33px;
+}
+
+.FancyIcon .default:hover {
+    background-image:url('../img/actions/default_over.png');
+    height:49px;
+    width:49px;
+}
+
+.FancyIcon .toggle {
+    background-image:url('../img/actions/toggle.png');
+    height:33px;
+    width:33px;
+}
+
+.FancyIcon .toggle:hover {
+    background-image:url('../img/actions/toggle_over.png');
+    height:49px;
+    width:49px;
+}
+
+.FancyIcon .reload {
+    background-image:url('../img/actions/reload.png');
+    height:33px;
+    width:33px;
+}
+
+.FancyIcon .reload:hover {
+    background-image:url('../img/actions/reload_over.png');
+    height:49px;
+    width:49px;
+}
+
+.FancyIcon .edit_profile {
+    background-image:url('../img/actions/edit_profile.png');
+    height:33px;
+    width:33px;
+}
+
+.FancyIcon .edit_profile:hover {
+    background-image:url('../img/actions/edit_profile_over.png');
+    height:49px;
+    width:49px;
+}
+
+.FancyIcon .pdf {
+    background-image:url('../img/actions/pdf.png');
+    height:33px;
+    width:33px;
+}
+
+.FancyIcon .pdf:hover {
+    background-image:url('../img/actions/pdf_over.png');
+    height:49px;
+    width:49px;
+}
+
+.FancyIcon .csv {
+    background-image:url('../img/actions/csv.png');
+    height:32px;
+    width:32px;
+}
+
+.FancyIcon .csv:hover {
+    background-image:url('../img/actions/csv_over.png');
+    height:48px;
+    width:48px;
+}
+
+
+.FancyIcon .test {
+    background-repeat:no-repeat;
+    float: left;
+    cursor: pointer;
+    background-image:url('../img/actions/test.png');
+    height:33px;
+    width:33px;
+}
+
+.FancyIcon .test:hover {
+    background-repeat:no-repeat;
+    float: left;
+    cursor: pointer;
+    background-image:url('../img/actions/test_over.png');
+    height:49px;
+    width:49px;
+}
+
+.FancyIcon .add_tunnel {
+    background-image:url('../img/actions/add_tunnel.png');
+    height:33px;
+    width:33px;
+}
+
+.FancyIcon .add_tunnel:hover {
+    background-image:url('../img/actions/add_tunnel_over.png');
+    height:49px;
+    width:49px;
+}
+
+.FancyIcon .kick {
+    background-image:url('../img/actions/kick.png');
+    height:33px;
+    width:33px;
+}
+
+.FancyIcon .kick:hover {
+    background-image:url('../img/actions/kick_over.png');
+    height:49px;
+    width:49px;
+}
+
+.FancyIcon .disable {
+    background-image:url('../img/actions/disable.png');
+    height:33px;
+    width:33px;
+}
+
+.FancyIcon .disable:hover {
+    background-image:url('../img/actions/disable_over.png');
+    height:49px;
+    width:49px;
+}
+
+.FancyIcon .message {
+    background-image:url('../img/actions/message.png');
+    height:33px;
+    width:33px;
+}
+
+.FancyIcon .message:hover {
+    background-image:url('../img/actions/message_over.png');
+    height:49px;
+    width:49px;
+}
+
+.FancyIcon .help {
+    background-image:url('../img/actions/help.png');
+    height:32px;
+    width:32px;
+}
+
+.FancyIcon .help:hover {
+    background-image:url('../img/actions/help_over.png');
+    height:48px;
+    width:48px;
+}
+
+.FancyIcon .mail {
+    background-image:url('../img/actions/mail.png');
+    height:33px;
+    width:33px;
+}
+
+.FancyIcon .mail:hover {
+    background-image:url('../img/actions/mail_over.png');
+    height:49px;
+    width:49px;
+}
+
+.FancyIcon .payment {
+    background-image:url('../img/actions/payment.png');
+    height:32px;
+    width:32px;
+}
+
+.FancyIcon .payment:hover {
+    background-image:url('../img/actions/payment_over.png');
+    height:48px;
+    width:48px;
+}
+
+.FancyIcon .attach {
+    background-image:url('../img/actions/attach.png');
+    height:32px;
+    width:32px;
+}
+
+.FancyIcon .attach:hover {
+    background-image:url('../img/actions/attach_over.png');
+    height:48px;
+    width:48px;
+}
+
+.FancyIcon .note {
+    background-image:url('../img/actions/note.png');
+    height:32px;
+    width:32px;
+}
+
+.FancyIcon .note:hover {
+    background-image:url('../img/actions/note_over.png');
+    height:48px;
+    width:48px;
+}
+
+
+.FancyIcon .fr_FR {
+    background-image:url('../img/flags/fr_FR.png');
+    height:32px;
+    width:32px;
+}
+
+.FancyIcon .fr_FR:hover {
+    background-image:url('../img/flags/fr_FR_over.png');
+    height:48px;
+    width:48px;
+}
+
+.FancyIcon .af_ZA {
+    background-image:url('../img/flags/af_ZA.png');
+    height:32px;
+    width:32px;
+}
+
+.FancyIcon .af_ZA:hover {
+    background-image:url('../img/flags/af_ZA_over.png');
+    height:48px;
+    width:48px;
+}
+
+.FancyIcon .en {
+    background-image:url('../img/flags/en.png');
+    height:32px;
+    width:32px;
+}
+
+.FancyIcon .en:hover {
+    background-image:url('../img/flags/en_over.png');
+    height:48px;
+    width:48px;
+}
+
+.FancyIcon .ms_MY {
+    background-image:url('../img/flags/ms_MY.png');
+    height:32px;
+    width:32px;
+}
+
+.FancyIcon .ms_MY:hover {
+    background-image:url('../img/flags/ms_MY_over.png');
+    height:48px;
+    width:48px;
+}
+
+.FancyIcon .id_ID {
+    background-image:url('../img/flags/id_ID.png');
+    height:32px;
+    width:32px;
+}
+
+.FancyIcon .id_ID:hover {
+    background-image:url('../img/flags/id_ID_over.png');
+    height:48px;
+    width:48px;
+}
+
+.FancyIcon .nl_NL {
+    background-image:url('../img/flags/nl_NL.png');
+    height:32px;
+    width:32px;
+}
+
+.FancyIcon .nl_NL:hover {
+    background-image:url('../img/flags/nl_NL_over.png');
+    height:48px;
+    width:48px;
+}
+
+.FancyIcon .es_ES {
+    background-image:url('../img/flags/es_ES.png');
+    height:32px;
+    width:32px;
+}
+
+.FancyIcon .es_ES:hover {
+    background-image:url('../img/flags/es_ES_over.png');
+    height:48px;
+    width:48px;
+}
+
+.FancyIcon .th_TH {
+    background-image:url('../img/flags/th_TH.png');
+    height:32px;
+    width:32px;
+}
+
+.FancyIcon .th_TH:hover {
+    background-image:url('../img/flags/th_TH_over.png');
+    height:48px;
+    width:48px;
+}
+
+.FancyIcon .pt_BR {
+    background-image:url('../img/flags/pt_BR.png');
+    height:32px;
+    width:32px;
+}
+
+.FancyIcon .pt_BR:hover {
+    background-image:url('../img/flags/pt_BR_over.png');
+    height:48px;
+    width:48px;
+}
+
+.FancyIcon .de_DE {
+    background-image:url('../img/flags/de_DE.png');
+    height:32px;
+    width:32px;
+}
+
+.FancyIcon .de_DE:hover {
+    background-image:url('../img/flags/de_DE_over.png');
+    height:48px;
+    width:48px;
+}
+
+.FancyIcon .it_IT {
+    background-image:url('../img/flags/it_IT.png');
+    height:32px;
+    width:32px;
+}
+
+.FancyIcon .it_IT:hover {
+    background-image:url('../img/flags/it_IT_over.png');
+    height:48px;
+    width:48px;
+}
+
+.FancyIcon .da_DK {
+    background-image:url('../img/flags/da_DK.png');
+    height:32px;
+    width:32px;
+}
+
+.FancyIcon .da_DK:hover {
+    background-image:url('../img/flags/da_DK_over.png');
+    height:48px;
+    width:48px;
+}
+
+.FancyIcon .fa_IR {
+    background-image:url('../img/flags/fa_IR.png');
+    height:32px;
+    width:32px;
+}
+
+.FancyIcon .fa_IR:hover {
+    background-image:url('../img/flags/fa_IR_over.png');
+    height:48px;
+    width:48px;
+}
+
+
+.FancyIcon .settings {
+    background-image:url('../img/actions/settings.png');
+    height:32px;
+    width:32px;
+}
+
+.FancyIcon .settings:hover {
+    background-image:url('../img/actions/settings_over.png');
+    height:48px;
+    width:48px;
+}
+
+.FancyIcon .power {
+    background-image:url('../img/actions/power.png');
+    height:32px;
+    width:32px;
+}
+
+.FancyIcon .power:hover {
+    background-image:url('../img/actions/power_over.png');
+    height:48px;
+    width:48px;
+}
+
+
+
+
+
+/*----Icons for the buttons----*/ 
+.clearIcon {
+    background-image:url('../img/actions/clear.png');
+    background-repeat:no-repeat;
+    height:18px;
+    width:18px;
+}
+
+.okIcon {
+    background-image:url('../img/actions/ok.png');
+    background-repeat:no-repeat;
+    height:18px;
+    width:18px;
+}
+
+.cancelIcon {
+    background-image:url('../img/actions/cancel.png');
+    background-repeat:no-repeat;
+    height:18px;
+    width:18px;
+}
+
+.saveIcon {
+    background-image:url('../img/actions/save.png');
+    background-repeat:no-repeat;
+    height:18px;
+    width:18px;
+}
+
+.addIcon {
+    background-image:url('../img/actions/add_small.png');
+    background-repeat:no-repeat;
+    height:18px;
+    width:18px;
+}
+
+.snapIcon {
+    background-image:url('../img/actions/snap.png');
+    background-repeat:no-repeat;
+    height:18px;
+    width:18px;
+}
+
+/*-----END Icons for the buttons -----*/
+
+/*----Icons for the tabs----*/ 
+.homeTab {
+    background-image:url('../img/tabs/home.png');
+    background-repeat:no-repeat;
+    height:22px;
+    width:22px;
+}
+
+.voucherTab {
+    background-image:url('../img/tabs/voucher.png');
+    background-repeat:no-repeat;
+    height:22px;
+    width:22px;
+}
+
+.userTab {
+    background-image:url('../img/tabs/user.png');
+    background-repeat:no-repeat;
+    height:22px;
+    width:22px;
+}
+
+.creditTab {
+    background-image:url('../img/tabs/credit.png');
+    background-repeat:no-repeat;
+    height:22px;
+    width:22px;
+}
+
+
+.statsTab {
+    background-image:url('../img/tabs/stats.png');
+    background-repeat:no-repeat;
+    height:22px;
+    width:22px;
+}
+
+.accountTab {
+    background-image:url('../img/tabs/account.png');
+    background-repeat:no-repeat;
+    height:22px;
+    width:22px;
+}
+
+.profileTab {
+    background-image:url('../img/tabs/profile.png');
+    background-repeat:no-repeat;
+    height:22px;
+    width:22px;
+}
+
+.realmTab {
+    background-image:url('../img/tabs/realm.png');
+    background-repeat:no-repeat;
+    height:22px;
+    width:31px;
+}
+
+/*-----END Icons for the tabs -----*/
+
+
+
+
+/*----Form label---------*/
+.frmRequired  {
+
+    width: 130px;
+    height: 30px;
+    float: left;
+    font-weight: bold;
+    color:#393a39;
+    text-align: right;
+    margin-right: 6px;
+}
+
+.frmOptional  {
+
+    width: 130px;
+    height: 30px;
+    float: left;
+    color:#828288;
+    font-weight: normal;
+    text-align: right;
+    margin-right: 6px;
+}
+/*---- END Form lable ------*/
+
+
+.divWrapper {
+
+    height: 100%; 
+    width: 100%;
+    overflow: hidden;   /* erase window level scrollbars */
+}
+
+.divRightCategory {
+
+    height:300px;
+    width: 500px; 
+    background-color: #beedd5;
+    border: 1px solid #000000;
+    padding: 10px;
+    margin: 10px;
+    margin-bottom: 20px;
+}
+
+.divProfile {
+
+    height: 90px;
+    padding: 2px;
+    padding-left: 20px;
+    padding-right: 20px;
+    /*background-color: green;*/
+}
+
+.divSelects {
+
+    width: 400px;
+    padding-top: 5px;
+    border-top: 1px solid #000000;
+    border-left: 1px solid #000000;
+    border-bottom: 1px solid #000000;
+    background-color: #6bf96f;
+    float: right;
+
+}
+
+.divForm {
+    width:400px; 
+    background-color: #beedd5;
+    border: 1px solid #000000;
+    padding: 2px;
+}
+
+/* Experiment */
+.my_border { 
+
+    width:30em;
+    height:auto; 
+    padding: 10px;
+    margin-top: 10px;
+    color: #fff;
+}
+.my_border, .my_border .sb-inner { background:#444 url('../img/round_corners/grad.png') repeat-x; }
+
+/* End Experiment */
+
+/* Tab within a tab */
+.divTabInTab {
+
+    height: 100%; 
+    width: 100%;
+    overflow: hidden;   /* erase window level scrollbars */
+}
+
+/* Auto Setup */
+.autoSetupH {
+
+ margin-top: 1px;
+ margin-bottom: 2px;
+ padding-top: 1px;
+ padding-bottom: 3px;
+ color: #a7b0a5;
+
+}
+
+.link_space {
+
+ border: 1px solid #a7b0a5;
+ margin: 3px;
+ padding: 3px;
+
+}
+
+
+
+

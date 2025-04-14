@@ -1,7 +1,7 @@
 #!/usr/bin/perl
 
 
-use lib "/usr/local/etc/raddb/rlm_perl_modules";
+use lib "/etc/freeradius2/rlm_perl_modules";
 use SQLConnector;
 use Devices;
 use Attributes;
